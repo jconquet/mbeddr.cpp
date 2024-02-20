@@ -8,10 +8,10 @@ import java.time.format.FormatStyle
 buildscript {
     repositories {
         mavenCentral()
-        maven { url 'https://projects.itemis.de/nexus/content/repositories/mbeddr' }
+        maven { url 'https://artifacts.itemis.cloud/repository/maven-mps' }
     }
     dependencies {
-        classpath 'de.itemis.mps:mps-gradle-plugin:1.2.175.cc60dc8'
+        classpath 'de.itemis.mps:mps-gradle-plugin:1.11.+'
     }
 }
 
@@ -39,7 +39,7 @@ dependencies {
 
 repositories {
         maven {
-            url "https://projects.itemis.de/nexus/content/repositories/mbeddr"
+            url "https://artifacts.itemis.cloud/repository/maven-mps"
         }
 
     mavenCentral()
