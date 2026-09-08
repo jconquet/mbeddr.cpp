@@ -65,7 +65,7 @@
       <concept id="8654221991637384182" name="jetbrains.mps.build.structure.BuildFileIncludesSelector" flags="ng" index="3qWCbU">
         <property id="8654221991637384184" name="pattern" index="3qWCbO" />
       </concept>
-      <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ng" index="1y1bJS">
+      <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ngI" index="1y1bJS">
         <child id="7389400916848037006" name="children" index="39821P" />
       </concept>
       <concept id="841011766566059607" name="jetbrains.mps.build.structure.BuildStringNotEmpty" flags="ng" index="3_J27D" />
@@ -84,7 +84,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
@@ -192,12 +192,6 @@
       <node concept="m$_yC" id="4FIECQpWvU$" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
-      <node concept="m$_yC" id="4FIECQpWvU_" role="m$_yJ">
-        <ref role="m$_y1" to="90a9:2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
-      </node>
-      <node concept="m$_yC" id="4FIECQpWvUA" role="m$_yJ">
-        <ref role="m$_y1" to="90a9:7klUZA6XM5S" resolve="de.slisson.mps.conditionalEditor" />
-      </node>
       <node concept="m$_yC" id="4FIECQpWvUB" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7uZw0yZ2_Jq" resolve="com.mbeddr.mpsutil" />
       </node>
@@ -218,9 +212,6 @@
       </node>
       <node concept="m$_yC" id="4FIECQpWvUI" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:6EN03E8oSte" resolve="jetbrains.mps.ide.make" />
-      </node>
-      <node concept="m$_yC" id="1QWUXETulWc" role="m$_yJ">
-        <ref role="m$_y1" to="90a9:4hvHh3QW$Eh" resolve="de.itemis.mps.extensions.build" />
       </node>
       <node concept="m$_yC" id="1QWUXETulWC" role="m$_yJ">
         <ref role="m$_y1" to="p6ld:4zLxxnPtA$p" resolve="com.mbeddr.build" />
@@ -298,12 +289,6 @@
       <ref role="1l3spb" to="p6ld:4i9pOwKTFVe" resolve="mbeddr" />
       <node concept="398BVA" id="1QWUXETulY9" role="2JcizS">
         <ref role="398BVh" node="1QWUXETulWR" resolve="mbeddr.artifacts" />
-      </node>
-    </node>
-    <node concept="2sgV4H" id="6avZc_50MCD" role="1l3spa">
-      <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="de.itemis.mps.extensions" />
-      <node concept="398BVA" id="1QWUXETulYb" role="2JcizS">
-        <ref role="398BVh" node="1QWUXETulXw" resolve="extensions.artifacts" />
       </node>
     </node>
     <node concept="2_Ic$z" id="7OyG8hrcgea" role="3989C9">

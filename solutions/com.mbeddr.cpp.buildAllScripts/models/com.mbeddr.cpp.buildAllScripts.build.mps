@@ -68,7 +68,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -140,12 +140,6 @@
       <ref role="1l3spb" to="p6ld:4i9pOwKTFVe" resolve="mbeddr" />
       <node concept="398BVA" id="1QWUXETulY9" role="2JcizS">
         <ref role="398BVh" node="1QWUXETulWR" resolve="mbeddr.artifacts" />
-      </node>
-    </node>
-    <node concept="2sgV4H" id="6avZc_50MCD" role="1l3spa">
-      <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="de.itemis.mps.extensions" />
-      <node concept="398BVA" id="1QWUXETulYb" role="2JcizS">
-        <ref role="398BVh" node="6RmoJr9qF5L" resolve="platform.artifacts" />
       </node>
     </node>
     <node concept="398rNT" id="16Blx1neS8f" role="1l3spd">
