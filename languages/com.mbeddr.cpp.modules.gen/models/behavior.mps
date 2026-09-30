@@ -16,6 +16,7 @@
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" />
     <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" />
     <import index="uaom" ref="r:00838eaa-3253-4491-82f7-437f360206d2(com.mbeddr.cpp.templates.behavior)" />
+    <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" implicit="true" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -104,14 +105,14 @@
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
@@ -192,7 +193,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -294,7 +295,9 @@
           <node concept="3cpWsn" id="4k76AKYmdeA" role="3cpWs9">
             <property role="TrG5h" value="imports" />
             <node concept="_YKpA" id="4k76AKYmdeB" role="1tU5fm">
-              <node concept="3Tqbb2" id="4k76AKYmdeC" role="_ZDj9" />
+              <node concept="3Tqbb2" id="4k76AKYmdeC" role="_ZDj9">
+                <ref role="ehGHo" to="vs0r:6clJcrJZLbn" resolve="IChunkDependency" />
+              </node>
             </node>
             <node concept="2OqwBi" id="4k76AKYmdeD" role="33vP2m">
               <node concept="2OqwBi" id="4k76AKYmdeE" role="2Oq$k0">
@@ -840,12 +843,12 @@
                       <node concept="3cpWsn" id="7mGKYHi6YWL" role="3cpWs9">
                         <property role="TrG5h" value="fixedImport" />
                         <node concept="3Tqbb2" id="7mGKYHi6YWG" role="1tU5fm">
-                          <ref role="ehGHo" to="d0vh:3kEjc_WIMEE" resolve="GenStdHeaderImport" />
+                          <ref role="ehGHo" to="x27k:3kEjc_WIKGf" resolve="StdHeaderImport" />
                         </node>
                         <node concept="2ShNRf" id="7mGKYHi6Z5x" role="33vP2m">
                           <node concept="3zrR0B" id="7mGKYHi6Z5v" role="2ShVmc">
                             <node concept="3Tqbb2" id="7mGKYHi6Z5w" role="3zrR0E">
-                              <ref role="ehGHo" to="d0vh:3kEjc_WIMEE" resolve="GenStdHeaderImport" />
+                              <ref role="ehGHo" to="x27k:3kEjc_WIKGf" resolve="StdHeaderImport" />
                             </node>
                           </node>
                         </node>
@@ -871,7 +874,7 @@
                             <ref role="3cqZAo" node="7mGKYHi6YWL" resolve="fixedImport" />
                           </node>
                           <node concept="3TrcHB" id="7mGKYHi6ZF$" role="2OqNvi">
-                            <ref role="3TsBF5" to="d0vh:3kEjc_WIMEF" resolve="headerFileName" />
+                            <ref role="3TsBF5" to="x27k:3kEjc_WIKGg" resolve="headerFileName" />
                           </node>
                         </node>
                       </node>
