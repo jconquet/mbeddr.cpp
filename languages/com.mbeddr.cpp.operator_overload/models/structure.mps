@@ -77,7 +77,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -136,47 +136,6 @@
       <property role="IQ2nx" value="8537261071724763298" />
       <property role="TrG5h" value="isDelete" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-  </node>
-  <node concept="25R3W" id="7jWRS$D$ZCY">
-    <property role="TrG5h" value="EOperatorType" />
-    <property role="3F6X1D" value="8276814910420140588" />
-    <ref role="1H5jkz" node="7jWRS$D$ZD0" resolve="Binary" />
-    <node concept="2JgGob" id="7jWRS$D$ZCZ" role="lGtFl">
-      <property role="3scbB" value="5CkWgdpp3fb/int_ordinal" />
-      <property role="3sfsH" value="5CkWgdpp0p1/by_name" />
-      <node concept="AxPO7" id="7bt9OVZfW8G" role="3lCyv">
-        <property role="TrG5h" value="EOperatorType" />
-        <property role="3F6X1D" value="8276814910420140588" />
-        <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
-        <node concept="M4N5e" id="3CCyXivS5dz" role="M5hS2">
-          <property role="1uS6qv" value="0" />
-          <property role="1uS6qo" value="Binary" />
-        </node>
-        <node concept="M4N5e" id="3CCyXivS5d$" role="M5hS2">
-          <property role="1uS6qv" value="1" />
-          <property role="1uS6qo" value="PrePostfix" />
-        </node>
-        <node concept="M4N5e" id="3CCyXiw92mb" role="M5hS2">
-          <property role="1uS6qv" value="2" />
-          <property role="1uS6qo" value="ArrayAccess" />
-        </node>
-      </node>
-    </node>
-    <node concept="25R33" id="7jWRS$D$ZD0" role="25R1y">
-      <property role="TrG5h" value="Binary" />
-      <property role="3tVfz5" value="4190753198599852899" />
-      <ref role="2wpffI" node="3CCyXivS5dz" />
-    </node>
-    <node concept="25R33" id="7jWRS$D$ZD1" role="25R1y">
-      <property role="TrG5h" value="PrePostfix" />
-      <property role="3tVfz5" value="4190753198599852900" />
-      <ref role="2wpffI" node="3CCyXivS5d$" />
-    </node>
-    <node concept="25R33" id="7jWRS$D$ZD2" role="25R1y">
-      <property role="TrG5h" value="ArrayAccess" />
-      <property role="3tVfz5" value="4190753198604297611" />
-      <ref role="2wpffI" node="3CCyXiw92mb" />
     </node>
   </node>
   <node concept="25R3W" id="7jWRS$D$ZD3">
@@ -577,6 +536,23 @@
       <property role="1L1pqM" value="[]" />
       <property role="3tVfz5" value="4709532788383750580" />
       <ref role="2wpffI" node="45rBLTHELAO" />
+    </node>
+  </node>
+  <node concept="25R3W" id="6lFVMypLkpO">
+    <property role="3F6X1D" value="7308197777996334708" />
+    <property role="TrG5h" value="EOperatorType" />
+    <ref role="1H5jkz" node="6lFVMypLkpP" resolve="Binary" />
+    <node concept="25R33" id="6lFVMypLkpP" role="25R1y">
+      <property role="3tVfz5" value="7308197777996334709" />
+      <property role="TrG5h" value="Binary" />
+    </node>
+    <node concept="25R33" id="6lFVMypLkpQ" role="25R1y">
+      <property role="3tVfz5" value="7308197777996334710" />
+      <property role="TrG5h" value="PrePostfix" />
+    </node>
+    <node concept="25R33" id="6lFVMypLkpR" role="25R1y">
+      <property role="3tVfz5" value="7308197777996334711" />
+      <property role="TrG5h" value="ArrayAccess" />
     </node>
   </node>
 </model>

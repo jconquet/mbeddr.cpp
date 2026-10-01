@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="test.ts.com.mbeddr.cpp" uuid="05157886-1175-44aa-8e79-7768b4ab9711" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
+<solution name="test.ts.com.mbeddr.cpp" uuid="05157886-1175-44aa-8e79-7768b4ab9711" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -11,7 +11,6 @@
     </facet>
     <facet type="tests" />
   </facets>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">8c081446-e4ba-48b7-a7e0-3db40e2c3439(com.mbeddr.cpp.base)</dependency>
     <dependency reexport="false">6d11763d-483d-4b2b-8efc-09336c1b0001(com.mbeddr.core.modules)</dependency>

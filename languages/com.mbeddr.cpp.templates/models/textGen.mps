@@ -74,7 +74,7 @@
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
@@ -148,7 +148,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -707,7 +707,7 @@
               <node concept="2OqwBi" id="3UsoL$lb1vH" role="2Oq$k0">
                 <node concept="117lpO" id="3UsoL$lb1nq" role="2Oq$k0" />
                 <node concept="3TrcHB" id="3UsoL$lb1Bi" role="2OqNvi">
-                  <ref role="3TsBF5" to="wnzg:7jWRS$D$ZDE" resolve="visibility" />
+                  <ref role="3TsBF5" to="wnzg:6lFVMypO1UT" resolve="visibility" />
                 </node>
               </node>
             </node>

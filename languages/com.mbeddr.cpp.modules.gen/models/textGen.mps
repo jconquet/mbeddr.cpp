@@ -69,7 +69,7 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
@@ -175,7 +175,7 @@
       <concept id="5779574625832259537" name="jetbrains.mps.lang.smodel.structure.EnumMember_PresentationOperation" flags="ng" index="1XCIdh" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -306,7 +306,7 @@
               <node concept="24Tkf9" id="7jWRS$D$ZJ$" role="2OqNvi" />
               <node concept="2OqwBi" id="2Ai0GtaeH4R" role="2Oq$k0">
                 <node concept="3TrcHB" id="3LE5RBQo1ll" role="2OqNvi">
-                  <ref role="3TsBF5" to="wnzg:7jWRS$D$ZDC" resolve="visibility" />
+                  <ref role="3TsBF5" to="wnzg:6lFVMypM$KA" resolve="visibility" />
                 </node>
                 <node concept="117lpO" id="2Ai0GtaeGX9" role="2Oq$k0" />
               </node>
@@ -685,7 +685,7 @@
                   <node concept="2OqwBi" id="3UsoL$lb1vH" role="2Oq$k0">
                     <node concept="117lpO" id="3UsoL$lb1nq" role="2Oq$k0" />
                     <node concept="3TrcHB" id="3UsoL$lb1Bi" role="2OqNvi">
-                      <ref role="3TsBF5" to="wnzg:7jWRS$D$ZDE" resolve="visibility" />
+                      <ref role="3TsBF5" to="wnzg:6lFVMypO1UT" resolve="visibility" />
                     </node>
                   </node>
                 </node>
@@ -713,7 +713,7 @@
             <node concept="2OqwBi" id="1hH95XHzILF" role="3uHU7B">
               <node concept="117lpO" id="1hH95XHzIBl" role="2Oq$k0" />
               <node concept="3TrcHB" id="1hH95XHzIZF" role="2OqNvi">
-                <ref role="3TsBF5" to="wnzg:7jWRS$D$ZDE" resolve="visibility" />
+                <ref role="3TsBF5" to="wnzg:6lFVMypO1UT" resolve="visibility" />
               </node>
             </node>
           </node>

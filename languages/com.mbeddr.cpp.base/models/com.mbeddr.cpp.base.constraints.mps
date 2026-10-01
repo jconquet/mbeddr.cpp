@@ -32,7 +32,7 @@
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
       </concept>
-      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ngI" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
@@ -103,7 +103,7 @@
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
@@ -119,7 +119,7 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
@@ -209,7 +209,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -635,7 +635,7 @@
                                   <node concept="2OqwBi" id="3n$8_XbdTrf" role="3clFbG">
                                     <node concept="2OqwBi" id="3n$8_XbdR9Z" role="2Oq$k0">
                                       <node concept="3TrcHB" id="3LE5RBQnZEZ" role="2OqNvi">
-                                        <ref role="3TsBF5" to="wnzg:7jWRS$D$ZDC" resolve="visibility" />
+                                        <ref role="3TsBF5" to="wnzg:6lFVMypM$KA" resolve="visibility" />
                                       </node>
                                       <node concept="37vLTw" id="3n$8_XbdQ_J" role="2Oq$k0">
                                         <ref role="3cqZAo" node="3n$8_XbdPYR" resolve="it" />
@@ -643,7 +643,7 @@
                                     </node>
                                     <node concept="21noJN" id="7jWRS$D$ZE_" role="2OqNvi">
                                       <node concept="21nZrQ" id="7jWRS$D$ZEA" role="21noJM">
-                                        <ref role="21nZrZ" to="wnzg:7jWRS$D$ZCX" resolve="public" />
+                                        <ref role="21nZrZ" to="wnzg:6lFVMypOl$D" resolve="public" />
                                       </node>
                                     </node>
                                   </node>
@@ -1902,12 +1902,12 @@
                               <ref role="3cqZAo" node="7SgJHc7HOl$" resolve="it" />
                             </node>
                             <node concept="3TrcHB" id="7SgJHc7HQZ8" role="2OqNvi">
-                              <ref role="3TsBF5" to="wnzg:7jWRS$D$ZDC" resolve="visibility" />
+                              <ref role="3TsBF5" to="wnzg:6lFVMypM$KA" resolve="visibility" />
                             </node>
                           </node>
                           <node concept="21noJN" id="7jWRS$D$ZEB" role="2OqNvi">
                             <node concept="21nZrQ" id="7jWRS$D$ZEC" role="21noJM">
-                              <ref role="21nZrZ" to="wnzg:7jWRS$D$ZCX" resolve="public" />
+                              <ref role="21nZrZ" to="wnzg:6lFVMypOl$D" resolve="public" />
                             </node>
                           </node>
                         </node>

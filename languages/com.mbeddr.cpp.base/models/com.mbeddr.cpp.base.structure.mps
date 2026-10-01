@@ -18,34 +18,16 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
         <property id="1421157252384165432" name="memberId" index="3tVfz5" />
-        <reference id="899069222106091871" name="oldMember" index="2wpffI" />
       </concept>
       <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
         <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
         <child id="3348158742936976577" name="members" index="25R1y" />
-      </concept>
-      <concept id="6491077959632463275" name="jetbrains.mps.lang.structure.structure.EnumPropertyMigrationInfo" flags="ng" index="3l_iC">
-        <child id="6491077959632463286" name="oldProperty" index="3l_iP" />
       </concept>
       <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
         <property id="7862711839422615217" name="text" index="t5JxN" />
       </concept>
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
-      </concept>
-      <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration_Old" flags="ng" index="AxPO7">
-        <property id="1212080844762" name="hasNoDefaultMember" index="PDuV0" />
-        <reference id="1083171729157" name="memberDataType" index="M4eZT" />
-        <child id="1083172003582" name="member" index="M5hS2" />
-      </concept>
-      <concept id="1588368162884797030" name="jetbrains.mps.lang.structure.structure.EnumMigrationInfo" flags="ng" index="2JgGob">
-        <property id="6491077959634662372" name="valueOpMigration" index="3scbB" />
-        <property id="6491077959634650670" name="nameOpMigration" index="3sfsH" />
-        <child id="6491077959632451996" name="oldEnum" index="3lCyv" />
-      </concept>
-      <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration_Old" flags="ig" index="M4N5e">
-        <property id="1083923523172" name="externalValue" index="1uS6qo" />
-        <property id="1083923523171" name="internalValue" index="1uS6qv" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
@@ -83,7 +65,7 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -185,17 +167,10 @@
     <node concept="PrWs8" id="7RTlUgeAr7D" role="PrDN$">
       <ref role="PrY4T" to="tpck:2WmWrdnSpX2" resolve="ICanSuppressErrors" />
     </node>
-    <node concept="1TJgyi" id="7jWRS$D$ZDC" role="1TKVEl">
+    <node concept="1TJgyi" id="6lFVMypM$KA" role="1TKVEl">
+      <property role="IQ2nx" value="7308197777996663846" />
       <property role="TrG5h" value="visibility" />
-      <property role="IQ2nx" value="2995459757115087788" />
-      <ref role="AX2Wp" node="7jWRS$D$ZCT" resolve="EClassMemberVisibility" />
-      <node concept="3l_iC" id="7jWRS$D$ZDD" role="lGtFl">
-        <node concept="1TJgyi" id="2Ai0Gt9ODIG" role="3l_iP">
-          <property role="IQ2nx" value="2995459757115087788" />
-          <property role="TrG5h" value="visibility" />
-          <ref role="AX2Wp" node="2Ai0Gt9ODIr" resolve="EClassMemberVisibility" />
-        </node>
-      </node>
+      <ref role="AX2Wp" node="6lFVMypLN2L" resolve="EClassMemberVisibility" />
     </node>
     <node concept="t5JxF" id="c7Kd0eKO3b" role="lGtFl">
       <property role="t5JxN" value="Interface that joins all top-level members classes can contain" />
@@ -337,17 +312,10 @@
         <property role="t5JxN" value="The class that this instance is representing inheritance from" />
       </node>
     </node>
-    <node concept="1TJgyi" id="7jWRS$D$ZDE" role="1TKVEl">
+    <node concept="1TJgyi" id="6lFVMypO1UT" role="1TKVEl">
+      <property role="IQ2nx" value="7308197777997045433" />
       <property role="TrG5h" value="visibility" />
-      <property role="IQ2nx" value="4511589886097466677" />
-      <ref role="AX2Wp" node="7jWRS$D$ZCT" resolve="EClassMemberVisibility" />
-      <node concept="3l_iC" id="7jWRS$D$ZDF" role="lGtFl">
-        <node concept="1TJgyi" id="3UsoL$l5qkP" role="3l_iP">
-          <property role="IQ2nx" value="4511589886097466677" />
-          <property role="TrG5h" value="visibility" />
-          <ref role="AX2Wp" node="2Ai0Gt9ODIr" resolve="EClassMemberVisibility" />
-        </node>
-      </node>
+      <ref role="AX2Wp" node="6lFVMypLN2L" resolve="EClassMemberVisibility" />
     </node>
   </node>
   <node concept="1TIwiD" id="3EDDOqDY7x5">
@@ -1350,50 +1318,6 @@
       <property role="t5JxN" value="This represents newlines in a namespace at the top level." />
     </node>
   </node>
-  <node concept="25R3W" id="7jWRS$D$ZCT">
-    <property role="TrG5h" value="EClassMemberVisibility" />
-    <property role="3GE5qa" value="class" />
-    <property role="3F6X1D" value="2995459757115087771" />
-    <ref role="1H5jkz" node="7jWRS$D$ZCV" resolve="private" />
-    <node concept="2JgGob" id="7jWRS$D$ZCU" role="lGtFl">
-      <property role="3scbB" value="5CkWgdpp3eY/string_name" />
-      <property role="3sfsH" value="5CkWgdpp0p1/by_name" />
-      <node concept="AxPO7" id="2Ai0Gt9ODIr" role="3lCyv">
-        <property role="TrG5h" value="EClassMemberVisibility" />
-        <property role="PDuV0" value="false" />
-        <property role="3GE5qa" value="class" />
-        <property role="3F6X1D" value="2995459757115087771" />
-        <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-        <node concept="M4N5e" id="2Ai0Gt9ODIt" role="M5hS2">
-          <property role="1uS6qo" value="private" />
-          <property role="1uS6qv" value="private" />
-        </node>
-        <node concept="M4N5e" id="2Ai0Gt9ODIw" role="M5hS2">
-          <property role="1uS6qo" value="protected" />
-          <property role="1uS6qv" value="protected" />
-        </node>
-        <node concept="M4N5e" id="2Ai0Gt9ODIs" role="M5hS2">
-          <property role="1uS6qo" value="public" />
-          <property role="1uS6qv" value="public" />
-        </node>
-      </node>
-    </node>
-    <node concept="25R33" id="7jWRS$D$ZCV" role="25R1y">
-      <property role="TrG5h" value="private" />
-      <property role="3tVfz5" value="2995459757115087773" />
-      <ref role="2wpffI" node="2Ai0Gt9ODIt" />
-    </node>
-    <node concept="25R33" id="7jWRS$D$ZCW" role="25R1y">
-      <property role="TrG5h" value="protected" />
-      <property role="3tVfz5" value="2995459757115087776" />
-      <ref role="2wpffI" node="2Ai0Gt9ODIw" />
-    </node>
-    <node concept="25R33" id="7jWRS$D$ZCX" role="25R1y">
-      <property role="TrG5h" value="public" />
-      <property role="3tVfz5" value="2995459757115087772" />
-      <ref role="2wpffI" node="2Ai0Gt9ODIs" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="fwMInzpHoK">
     <property role="TrG5h" value="ReferenceType" />
     <property role="3GE5qa" value="type" />
@@ -1469,6 +1393,24 @@
     </node>
     <node concept="PrWs8" id="7AGjRMZ38s6" role="PzmwI">
       <ref role="PrY4T" to="tpck:2WmWrdnSpX2" resolve="ICanSuppressErrors" />
+    </node>
+  </node>
+  <node concept="25R3W" id="6lFVMypLN2L">
+    <property role="3F6X1D" value="7308197777996460209" />
+    <property role="3GE5qa" value="class" />
+    <property role="TrG5h" value="EClassMemberVisibility" />
+    <ref role="1H5jkz" node="6lFVMypLN2M" resolve="private" />
+    <node concept="25R33" id="6lFVMypLN2M" role="25R1y">
+      <property role="3tVfz5" value="7308197777996460210" />
+      <property role="TrG5h" value="private" />
+    </node>
+    <node concept="25R33" id="6lFVMypLN2N" role="25R1y">
+      <property role="3tVfz5" value="7308197777996460211" />
+      <property role="TrG5h" value="protected" />
+    </node>
+    <node concept="25R33" id="6lFVMypOl$D" role="25R1y">
+      <property role="3tVfz5" value="7308197777997125929" />
+      <property role="TrG5h" value="public" />
     </node>
   </node>
 </model>
