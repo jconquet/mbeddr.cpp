@@ -59,7 +59,7 @@
         <child id="4185783222026502647" name="init" index="3XIe9u" />
       </concept>
       <concept id="5044697665789421253" name="com.mbeddr.cpp.base.structure.IClassMemberDeclaration" flags="ng" index="3mBbG9">
-        <property id="2995459757115087788" name="visibility" index="1wg9_F" />
+        <property id="7308197777996663846" name="visibility" index="3WCqce" />
       </concept>
       <concept id="5044697665789405022" name="com.mbeddr.cpp.base.structure.ClassType" flags="ng" index="3mBfEi">
         <reference id="5044697665789405054" name="class" index="3mBfEM" />
@@ -135,44 +135,31 @@
   </registry>
   <node concept="1whW_1" id="4lmr4L5g4z$">
     <property role="TrG5h" value="ClassAttributes" />
-    <node concept="3mBW2U" id="3e4PW88DTsT" role="N3F5h">
-      <property role="2OOxQR" value="false" />
-      <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+    <node concept="3mBW2U" id="4sD_dpwl56q" role="N3F5h">
+      <property role="3WCqce" value="6lFVMypOl$D/public" />
       <property role="TrG5h" value="SomeClass" />
-      <node concept="3mBbG7" id="3e4PW88DTtd" role="3mBdys">
-        <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+      <node concept="3mBbG7" id="4sD_dpwl5hJ" role="3mBdys">
         <property role="TrG5h" value="some32BitInt" />
-        <node concept="26Vqph" id="3e4PW88DTtp" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3TlMh9" id="3e4PW88DTw1" role="3XIe9u">
+        <property role="3WCqce" value="6lFVMypOl$D/public" />
+        <node concept="26Vqph" id="4sD_dpwl5hI" role="2C2TGm" />
+        <node concept="3TlMh9" id="4sD_dpwl5iD" role="3XIe9u">
           <property role="2hmy$m" value="0" />
         </node>
       </node>
-      <node concept="3mBbG7" id="3e4PW88DTub" role="3mBdys">
-        <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+      <node concept="3mBbG7" id="4sD_dpwl5vc" role="3mBdys">
         <property role="TrG5h" value="someInt" />
-        <node concept="3TlMh2" id="3e4PW88DTus" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3TlMh9" id="3e4PW88DTxp" role="3XIe9u">
+        <property role="3WCqce" value="6lFVMypOl$D/public" />
+        <node concept="3TlMh2" id="4sD_dpwl5va" role="2C2TGm" />
+        <node concept="3TlMh9" id="4sD_dpwl5vU" role="3XIe9u">
           <property role="2hmy$m" value="0" />
         </node>
       </node>
-      <node concept="3mBbG7" id="3e4PW88DT$Y" role="3mBdys">
-        <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+      <node concept="3mBbG7" id="4sD_dpwl5Lo" role="3mBdys">
         <property role="TrG5h" value="someBoolean" />
-        <node concept="3TlMgk" id="3e4PW88DT_x" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3TlMhK" id="3e4PW88DT_Z" role="3XIe9u" />
+        <property role="3WCqce" value="6lFVMypOl$D/public" />
+        <node concept="3TlMgk" id="4sD_dpwl5Lm" role="2C2TGm" />
+        <node concept="3TlMhK" id="4sD_dpwl5LY" role="3XIe9u" />
       </node>
-    </node>
-    <node concept="2NXPZ9" id="3e4PW88DUnc" role="N3F5h">
-      <property role="TrG5h" value="empty_1529096042971_10" />
     </node>
     <node concept="2NXPZ9" id="3e4PW88DUnX" role="N3F5h">
       <property role="TrG5h" value="empty_1529096043141_11" />
@@ -185,12 +172,10 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="3XIRFW" id="3e4PW89hHuI" role="c0Qz3">
-        <node concept="2dywKE" id="3e4PW89hHya" role="3XIRFZ">
+        <node concept="2dywKE" id="4sD_dpwl7wr" role="3XIRFZ">
           <property role="TrG5h" value="someClass" />
-          <node concept="3mBfEi" id="3e4PW89hHy9" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-            <ref role="3mBfEM" node="3e4PW88DTsT" resolve="SomeClass" />
+          <node concept="3mBfEi" id="4sD_dpwl7wp" role="2C2TGm">
+            <ref role="3mBfEM" node="4sD_dpwl56q" resolve="SomeClass2" />
           </node>
         </node>
         <node concept="2N2KuS" id="3e4PW89hHyY" role="3XIRFZ">
@@ -199,10 +184,10 @@
           </node>
           <node concept="2qmXGp" id="3e4PW89hHzx" role="2N2GHg">
             <node concept="3mBk1D" id="3e4PW89hHzV" role="1ESnxz">
-              <ref role="3mBk1B" node="3e4PW88DTtd" resolve="some32BitInt" />
+              <ref role="3mBk1B" node="4sD_dpwl5hJ" resolve="some32BitInt" />
             </node>
             <node concept="3ZVu4v" id="3e4PW89hHzo" role="1_9fRO">
-              <ref role="3ZVs_2" node="3e4PW89hHya" resolve="someClass" />
+              <ref role="3ZVs_2" node="4sD_dpwl7wr" resolve="someClass3" />
             </node>
           </node>
         </node>
@@ -212,10 +197,10 @@
           </node>
           <node concept="2qmXGp" id="3e4PW89hHEN" role="2N2GHg">
             <node concept="3mBk1D" id="3e4PW89hHKy" role="1ESnxz">
-              <ref role="3mBk1B" node="3e4PW88DTub" resolve="someInt" />
+              <ref role="3mBk1B" node="4sD_dpwl5vc" resolve="someInt" />
             </node>
             <node concept="3ZVu4v" id="3e4PW89hHEE" role="1_9fRO">
-              <ref role="3ZVs_2" node="3e4PW89hHya" resolve="someClass" />
+              <ref role="3ZVs_2" node="4sD_dpwl7wr" resolve="someClass3" />
             </node>
           </node>
         </node>
@@ -223,10 +208,10 @@
           <node concept="3TlMhK" id="3e4PW89hI3z" role="2N2GHh" />
           <node concept="2qmXGp" id="3e4PW89hHTO" role="2N2GHg">
             <node concept="3mBk1D" id="3e4PW89hI3e" role="1ESnxz">
-              <ref role="3mBk1B" node="3e4PW88DT$Y" resolve="someBoolean" />
+              <ref role="3mBk1B" node="4sD_dpwl5Lo" resolve="someBoolean" />
             </node>
             <node concept="3ZVu4v" id="3e4PW89hHTF" role="1_9fRO">
-              <ref role="3ZVs_2" node="3e4PW89hHya" resolve="someClass" />
+              <ref role="3ZVs_2" node="4sD_dpwl7wr" resolve="someClass3" />
             </node>
           </node>
         </node>

@@ -102,11 +102,11 @@
       </concept>
       <concept id="868032131020265945" name="jetbrains.mps.build.mps.structure.BuildMPSPlugin" flags="ng" index="3b7kt6" />
       <concept id="5253498789149381388" name="jetbrains.mps.build.mps.structure.BuildMps_Module" flags="ng" index="3bQrTs">
+        <property id="1500819558096356884" name="doNotCompile" index="2GAjPV" />
         <child id="5253498789149547825" name="sources" index="3bR31x" />
         <child id="5253498789149547704" name="dependencies" index="3bR37C" />
       </concept>
       <concept id="5253498789149585690" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyOnModule" flags="ng" index="3bR9La">
-        <property id="5253498789149547713" name="reexport" index="3bR36h" />
         <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
       <concept id="763829979718664966" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleResources" flags="ng" index="3rtmxn">
@@ -306,6 +306,7 @@
         <property role="3LESm3" value="05157886-1175-44aa-8e79-7768b4ab9711" />
         <property role="TrG5h" value="test.ts.com.mbeddr.cpp" />
         <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
+        <property role="2GAjPV" value="true" />
         <node concept="1BupzO" id="6UXXL6qOcc6" role="3bR31x">
           <property role="3ZfqAx" value="models" />
           <property role="1HemKv" value="true" />
@@ -368,22 +369,6 @@
         <node concept="1SiIV0" id="6UXXL6qOqze" role="3bR37C">
           <node concept="3bR9La" id="6UXXL6qOqzf" role="1SiIV1">
             <ref role="3bR37D" node="6UXXL6qOqdf" resolve="com.mbeddr.cpp.__spreferences.PlatformTemplates" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6UXXL6qOPoN" role="3bR37C">
-          <node concept="3bR9La" id="6UXXL6qOPoO" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6UXXL6qOPIC" role="3bR37C">
-          <node concept="3bR9La" id="6UXXL6qOPID" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6UXXL6qOQ4t" role="3bR37C">
-          <node concept="3bR9La" id="6UXXL6qOQ4u" role="1SiIV1">
-            <property role="3bR36h" value="true" />
-            <ref role="3bR37D" to="ffeo:rD7wKO5Iy" resolve="MPS.TextGen" />
           </node>
         </node>
         <node concept="3rtmxn" id="3oM__YG$xJq" role="3bR31x">

@@ -118,7 +118,7 @@
         <child id="4185783222026502647" name="init" index="3XIe9v" />
       </concept>
       <concept id="5044697665789421253" name="com.mbeddr.cpp.base.structure.IClassMemberDeclaration" flags="ng" index="3mBbG9">
-        <property id="2995459757115087788" name="visibility" index="1wg9_F" />
+        <property id="7308197777996663846" name="visibility" index="3WCqce" />
       </concept>
       <concept id="5044697665789405022" name="com.mbeddr.cpp.base.structure.ClassType" flags="ng" index="3mBfEi">
         <reference id="5044697665789405054" name="class" index="3mBfEM" />
@@ -288,9 +288,9 @@
           <ref role="3Tgi6B" node="3UJ18qjr4Rs" resolve="A" />
         </node>
       </node>
-      <node concept="3mBW2U" id="5jEOlMMwWAq" role="ds5Fi">
+      <node concept="3mBW2U" id="4sD_dpwlDD6" role="ds5Fi">
         <property role="2OOxQR" value="true" />
-        <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+        <property role="3WCqce" value="6lFVMypOl$D/public" />
         <property role="TrG5h" value="NamespaceClass" />
       </node>
       <node concept="3mBbG7" id="5jEOlMMwWM9" role="ds5Fi">
@@ -298,7 +298,7 @@
         <node concept="3mBfEi" id="5jEOlMMwWM7" role="2C2TGm">
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
-          <ref role="3mBfEM" node="5jEOlMMwWAq" resolve="NamespaceClass" />
+          <ref role="3mBfEM" node="4sD_dpwlDD6" resolve="NamespaceClass" />
         </node>
       </node>
     </node>

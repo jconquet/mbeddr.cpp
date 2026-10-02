@@ -95,8 +95,15 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
+        <property id="8575328350543493365" name="message" index="huDt6" />
+        <property id="2423417345669755629" name="filter" index="1eyWvh" />
       </concept>
     </language>
     <language id="dd4979e3-3be6-46b3-9e1e-c36309e30758" name="com.mbeddr.cpp.modules">
@@ -151,13 +158,17 @@
   </node>
   <node concept="1whW_1" id="4ObFW5zjJVX">
     <property role="TrG5h" value="CharTypes" />
+    <node concept="15s5l7" id="4sD_dpwvtin" role="lGtFl">
+      <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type char const volatile  is not a subtype of char16_t &quot;;FLAVOUR_RULE_ID=&quot;[r:7b158038-abbe-4e11-b171-d5a959b4e91a(com.mbeddr.core.modules.typesystem)/8041233282185102482]&quot;;" />
+      <property role="huDt6" value="Error: type char const volatile  is not a subtype of char16_t " />
+    </node>
     <node concept="3Iz7nb" id="4ObFW5zjKoN" role="N3F5h">
       <property role="TrG5h" value="char16" />
       <node concept="uUSXO" id="4ObFW5zjKoL" role="2C2TGm">
         <property role="2caQfQ" value="false" />
         <property role="2c7vTL" value="false" />
       </node>
-      <node concept="biBdh" id="JgdYHuphWE" role="1cecVj">
+      <node concept="biBdh" id="4sD_dpwvsVn" role="1cecVj">
         <property role="biBdg" value="1" />
       </node>
     </node>

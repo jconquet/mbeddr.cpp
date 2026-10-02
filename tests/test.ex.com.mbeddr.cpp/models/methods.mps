@@ -59,7 +59,7 @@
         <child id="4185783222026475860" name="body" index="3XIRFX" />
       </concept>
       <concept id="5044697665789421253" name="com.mbeddr.cpp.base.structure.IClassMemberDeclaration" flags="ng" index="3mBbG9">
-        <property id="2995459757115087788" name="visibility" index="1wg9_F" />
+        <property id="7308197777996663846" name="visibility" index="3WCqce" />
       </concept>
       <concept id="5044697665789405022" name="com.mbeddr.cpp.base.structure.ClassType" flags="ng" index="3mBfEi">
         <reference id="5044697665789405054" name="class" index="3mBfEM" />
@@ -105,8 +105,15 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
+        <property id="8575328350543493365" name="message" index="huDt6" />
+        <property id="2423417345669755629" name="filter" index="1eyWvh" />
       </concept>
     </language>
     <language id="dd4979e3-3be6-46b3-9e1e-c36309e30758" name="com.mbeddr.cpp.modules">
@@ -164,52 +171,47 @@
   </node>
   <node concept="1whW_1" id="4lmr4L5g4z$">
     <property role="TrG5h" value="Methods" />
-    <node concept="3mBW2U" id="3e4PW88DTsT" role="N3F5h">
-      <property role="2OOxQR" value="false" />
-      <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+    <node concept="15s5l7" id="4sD_dpwvD5R" role="lGtFl">
+      <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type int  is not a subtype of long double &quot;;FLAVOUR_RULE_ID=&quot;[r:572f6bc0-c998-48d5-9fdb-9ca4597c66de(com.mbeddr.core.unittest.typesystem)/6929158439840851465]&quot;;" />
+      <property role="huDt6" value="Error: type int  is not a subtype of long double " />
+    </node>
+    <node concept="3mBW2U" id="4sD_dpwlCnK" role="N3F5h">
+      <property role="2OOxQR" value="true" />
+      <property role="3WCqce" value="6lFVMypOl$D/public" />
       <property role="TrG5h" value="SomeClass" />
-      <node concept="3mB1cK" id="2QzMXD1913R" role="3mBdys">
-        <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+      <node concept="3mB1cK" id="4sD_dpwlCq4" role="3mBdys">
         <property role="TrG5h" value="someInt32Method" />
-        <node concept="26Vqph" id="2QzMXD1914h" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3XIRFW" id="2QzMXD1914L" role="3XIRFX">
-          <node concept="2BFjQ_" id="2QzMXD1915f" role="3XIRFZ">
-            <node concept="3TlMh9" id="2QzMXD1915t" role="2BFjQA">
+        <property role="3WCqce" value="6lFVMypOl$D/public" />
+        <node concept="26Vqph" id="4sD_dpwlCq5" role="2C2TGm" />
+        <node concept="3XIRFW" id="4sD_dpwlCq6" role="3XIRFX">
+          <node concept="2BFjQ_" id="4sD_dpwlCq7" role="3XIRFZ">
+            <node concept="3TlMh9" id="4sD_dpwlCq8" role="2BFjQA">
               <property role="2hmy$m" value="0" />
             </node>
           </node>
         </node>
       </node>
-      <node concept="3u$6M4" id="2QzMXD1917M" role="3mBdys" />
-      <node concept="3mB1cK" id="2QzMXD191ku" role="3mBdys">
+      <node concept="3u$6M4" id="4sD_dpwlCq9" role="3mBdys" />
+      <node concept="3mB1cK" id="4sD_dpwlCqa" role="3mBdys">
         <property role="TrG5h" value="someIntMethod" />
-        <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
-        <node concept="3TlMh2" id="2QzMXD191m1" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3XIRFW" id="2QzMXD191mo" role="3XIRFX">
-          <node concept="2BFjQ_" id="2QzMXD191mT" role="3XIRFZ">
-            <node concept="3TlMh9" id="2QzMXD191n1" role="2BFjQA">
+        <property role="3WCqce" value="6lFVMypOl$D/public" />
+        <node concept="3TlMh2" id="4sD_dpwlCqb" role="2C2TGm" />
+        <node concept="3XIRFW" id="4sD_dpwlCqc" role="3XIRFX">
+          <node concept="2BFjQ_" id="4sD_dpwlCqd" role="3XIRFZ">
+            <node concept="3TlMh9" id="4sD_dpwlCqe" role="2BFjQA">
               <property role="2hmy$m" value="0" />
             </node>
           </node>
         </node>
       </node>
-      <node concept="3u$6M4" id="2QzMXD191bJ" role="3mBdys" />
-      <node concept="3mB1cK" id="2QzMXD191s9" role="3mBdys">
+      <node concept="3u$6M4" id="4sD_dpwlCqf" role="3mBdys" />
+      <node concept="3mB1cK" id="4sD_dpwlCqg" role="3mBdys">
         <property role="TrG5h" value="someBooleanMethod" />
-        <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
-        <node concept="3TlMgk" id="2QzMXD191uY" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3XIRFW" id="2QzMXD191vi" role="3XIRFX">
-          <node concept="2BFjQ_" id="2QzMXD191vG" role="3XIRFZ">
-            <node concept="3TlMhK" id="2QzMXD191vZ" role="2BFjQA" />
+        <property role="3WCqce" value="6lFVMypOl$D/public" />
+        <node concept="3TlMgk" id="4sD_dpwlCqh" role="2C2TGm" />
+        <node concept="3XIRFW" id="4sD_dpwlCqi" role="3XIRFX">
+          <node concept="2BFjQ_" id="4sD_dpwlCqj" role="3XIRFZ">
+            <node concept="3TlMhK" id="4sD_dpwlCqk" role="2BFjQA" />
           </node>
         </node>
       </node>
@@ -233,7 +235,7 @@
           <node concept="3mBfEi" id="3e4PW89hHy9" role="2C2TGm">
             <property role="2caQfQ" value="false" />
             <property role="2c7vTL" value="false" />
-            <ref role="3mBfEM" node="3e4PW88DTsT" resolve="SomeClass" />
+            <ref role="3mBfEM" node="4sD_dpwlCnK" resolve="SomeClass" />
           </node>
         </node>
         <node concept="2N2KuS" id="3e4PW89hHyY" role="3XIRFZ">
@@ -242,7 +244,7 @@
           </node>
           <node concept="2qmXGp" id="3e4PW89hHzx" role="2N2GHg">
             <node concept="3mBbHP" id="2QzMXD191wi" role="1ESnxz">
-              <ref role="3mBbHN" node="2QzMXD1913R" resolve="someInt32Method" />
+              <ref role="3mBbHN" node="4sD_dpwlCq4" resolve="someInt32Method1" />
             </node>
             <node concept="3ZVu4v" id="3e4PW89hHzo" role="1_9fRO">
               <ref role="3ZVs_2" node="3e4PW89hHya" resolve="someClass" />
@@ -250,23 +252,23 @@
           </node>
         </node>
         <node concept="2N2KuS" id="3e4PW89hHE6" role="3XIRFZ">
-          <node concept="3TlMh9" id="3e4PW89hHKR" role="2N2GHh">
-            <property role="2hmy$m" value="0" />
-          </node>
           <node concept="2qmXGp" id="3e4PW89hHEN" role="2N2GHg">
             <node concept="3mBbHP" id="T87GC$ZFJX" role="1ESnxz">
-              <ref role="3mBbHN" node="2QzMXD191ku" resolve="someIntMethod" />
+              <ref role="3mBbHN" node="4sD_dpwlCqa" resolve="someIntMethod" />
             </node>
             <node concept="3ZVu4v" id="3e4PW89hHEE" role="1_9fRO">
               <ref role="3ZVs_2" node="3e4PW89hHya" resolve="someClass" />
             </node>
+          </node>
+          <node concept="3TlMh9" id="4sD_dpwuvU4" role="2N2GHh">
+            <property role="2hmy$m" value="0" />
           </node>
         </node>
         <node concept="2N2KuS" id="3e4PW89hHSN" role="3XIRFZ">
           <node concept="3TlMhK" id="3e4PW89hI3z" role="2N2GHh" />
           <node concept="2qmXGp" id="3e4PW89hHTO" role="2N2GHg">
             <node concept="3mBbHP" id="T87GC$ZFKz" role="1ESnxz">
-              <ref role="3mBbHN" node="2QzMXD191s9" resolve="someBooleanMethod" />
+              <ref role="3mBbHN" node="4sD_dpwlCqg" resolve="someBooleanMethod1" />
             </node>
             <node concept="3ZVu4v" id="3e4PW89hHTF" role="1_9fRO">
               <ref role="3ZVs_2" node="3e4PW89hHya" resolve="someClass" />
