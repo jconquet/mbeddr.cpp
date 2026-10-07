@@ -192,6 +192,7 @@
         <property role="TrG5h" value="BaseClass2" />
         <property role="hL25V" value="true" />
         <property role="3BMcJd" value="true" />
+        <property role="3WCqce" value="6lFVMypOl$D/public" />
         <ref role="2gom41" node="4sD_dpwkD8h" resolve="BaseClass2" />
         <node concept="3XIRFW" id="4sD_dpwkDJl" role="1IVm9U" />
         <node concept="2dFNQU" id="4sD_dpwkDJm" role="2C2TGm" />
