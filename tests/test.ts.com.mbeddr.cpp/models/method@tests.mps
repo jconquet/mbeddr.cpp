@@ -201,7 +201,11 @@
               <property role="2c7vTL" value="false" />
               <ref role="3mBfEM" node="1gzloVU_9IW" resolve="SomeClass" />
             </node>
-            <node concept="3XIRFW" id="48nd0xjJTg" role="3XIRFX" />
+            <node concept="3XIRFW" id="48nd0xjJTg" role="3XIRFX">
+              <node concept="7CXmI" id="1Ax10u4hPxd" role="lGtFl">
+                <node concept="1TM$A" id="1Ax10u4hPxe" role="7EUXB" />
+              </node>
+            </node>
             <node concept="7CXmI" id="48nd0xjJUj" role="lGtFl">
               <node concept="29bkU" id="48nd0xjJUu" role="7EUXB">
                 <node concept="2PQEqo" id="48nd0xjJUv" role="3lydCh">

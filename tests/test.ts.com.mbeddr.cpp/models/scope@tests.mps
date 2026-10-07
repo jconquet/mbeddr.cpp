@@ -88,7 +88,7 @@
     <language id="8c081446-e4ba-48b7-a7e0-3db40e2c3439" name="com.mbeddr.cpp.base">
       <concept id="7240228573262412204" name="com.mbeddr.cpp.base.structure.LocalClassVariableDeclaration" flags="ng" index="2dywKE" />
       <concept id="4511589886097466673" name="com.mbeddr.cpp.base.structure.InheritanceInstance" flags="ng" index="FysoC">
-        <property id="4511589886097466677" name="visibility" index="FysoG" />
+        <property id="7308197777997045433" name="visibility" index="3WIZ6h" />
         <reference id="4511589886097466674" name="parentClass" index="FysoF" />
       </concept>
       <concept id="5044697665789382396" name="com.mbeddr.cpp.base.structure.MethodDeclaration" flags="ng" index="3mB1cK">
@@ -98,7 +98,7 @@
         <child id="4185783222026502647" name="init" index="3XIe9u" />
       </concept>
       <concept id="5044697665789421253" name="com.mbeddr.cpp.base.structure.IClassMemberDeclaration" flags="ng" index="3mBbG9">
-        <property id="2995459757115087788" name="visibility" index="1wg9_F" />
+        <property id="7308197777996663846" name="visibility" index="3WCqce" />
       </concept>
       <concept id="5044697665789405022" name="com.mbeddr.cpp.base.structure.ClassType" flags="ng" index="3mBfEi">
         <reference id="5044697665789405054" name="class" index="3mBfEM" />
@@ -204,23 +204,18 @@
         <node concept="3mBW2U" id="nbE_$_7VLV" role="N3F5h">
           <property role="2OOxQR" value="false" />
           <property role="TrG5h" value="PublicParentClass" />
-          <node concept="3mB1cK" id="6oRbCP68kRM" role="3mBdys">
+          <property role="3WCqce" value="6lFVMypOl$D/public" />
+          <node concept="3mB1cK" id="1Ax10u4hXYD" role="3mBdys">
             <property role="TrG5h" value="publicMethodPublicClass" />
-            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
-            <node concept="3XIRFW" id="6oRbCP68kRO" role="3XIRFX" />
-            <node concept="19Rifw" id="1gzloVU$YOL" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
+            <property role="3WCqce" value="6lFVMypOl$D/public" />
+            <node concept="19Rifw" id="1Ax10u4hXZ6" role="2C2TGm" />
+            <node concept="3XIRFW" id="1Ax10u4hXZj" role="3XIRFX" />
           </node>
-          <node concept="3mB1cK" id="688xTXtQiNN" role="3mBdys">
+          <node concept="3mB1cK" id="1Ax10u4hXZA" role="3mBdys">
             <property role="TrG5h" value="protectedMethodPublicClass" />
-            <property role="1wg9_F" value="2Ai0Gt9ODIw/protected" />
-            <node concept="19Rifw" id="1gzloVU$YUC" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
-            <node concept="3XIRFW" id="688xTXtQiQ$" role="3XIRFX" />
+            <property role="3WCqce" value="6lFVMypLN2N/protected" />
+            <node concept="19Rifw" id="1Ax10u4hXZB" role="2C2TGm" />
+            <node concept="3XIRFW" id="1Ax10u4hXZC" role="3XIRFX" />
           </node>
           <node concept="3mB1cK" id="1gzloVU$YVH" role="3mBdys">
             <property role="TrG5h" value="privateMethodPublicClass" />
@@ -237,31 +232,32 @@
         <node concept="3mBW2U" id="1gzloVU$Z1P" role="N3F5h">
           <property role="2OOxQR" value="false" />
           <property role="TrG5h" value="ProtectedParentClass" />
-          <node concept="3mB1cK" id="1gzloVU$Z1Q" role="3mBdys">
-            <property role="TrG5h" value="publicMethodProtectedClass" />
-            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
-            <node concept="3XIRFW" id="1gzloVU$Z1R" role="3XIRFX" />
-            <node concept="19Rifw" id="1gzloVU$Z1S" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
-          </node>
-          <node concept="3mB1cK" id="1gzloVU$Z1T" role="3mBdys">
-            <property role="TrG5h" value="protectedMethodProtectedClass" />
-            <property role="1wg9_F" value="2Ai0Gt9ODIw/protected" />
-            <node concept="19Rifw" id="1gzloVU$Z1U" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
-            <node concept="3XIRFW" id="1gzloVU$Z1V" role="3XIRFX" />
-          </node>
+          <property role="3WCqce" value="6lFVMypLN2N/protected" />
           <node concept="3mB1cK" id="1gzloVU$Z1W" role="3mBdys">
-            <property role="TrG5h" value="privateMethodProtectedClass" />
+            <property role="TrG5h" value="publicMethodProtectedClass" />
+            <property role="3WCqce" value="6lFVMypOl$D/public" />
             <node concept="19Rifw" id="1gzloVU$Z1X" role="2C2TGm">
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
             </node>
             <node concept="3XIRFW" id="1gzloVU$Z1Y" role="3XIRFX" />
+          </node>
+          <node concept="3mB1cK" id="1Ax10u4hY1F" role="3mBdys">
+            <property role="TrG5h" value="protectedMethodProtectedClass" />
+            <property role="3WCqce" value="6lFVMypLN2N/protected" />
+            <node concept="19Rifw" id="1Ax10u4hY1G" role="2C2TGm">
+              <property role="2caQfQ" value="false" />
+              <property role="2c7vTL" value="false" />
+            </node>
+            <node concept="3XIRFW" id="1Ax10u4hY1H" role="3XIRFX" />
+          </node>
+          <node concept="3mB1cK" id="1Ax10u4hY23" role="3mBdys">
+            <property role="TrG5h" value="privateMethodProtectedClass" />
+            <node concept="19Rifw" id="1Ax10u4hY24" role="2C2TGm">
+              <property role="2caQfQ" value="false" />
+              <property role="2c7vTL" value="false" />
+            </node>
+            <node concept="3XIRFW" id="1Ax10u4hY25" role="3XIRFX" />
           </node>
         </node>
         <node concept="2NXPZ9" id="1gzloVU$Z4$" role="N3F5h">
@@ -270,31 +266,31 @@
         <node concept="3mBW2U" id="1gzloVU$Z8s" role="N3F5h">
           <property role="2OOxQR" value="false" />
           <property role="TrG5h" value="PrivateParentClass" />
-          <node concept="3mB1cK" id="1gzloVU$Z8t" role="3mBdys">
-            <property role="TrG5h" value="publicMethodPrivateClass" />
-            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
-            <node concept="3XIRFW" id="1gzloVU$Z8u" role="3XIRFX" />
-            <node concept="19Rifw" id="1gzloVU$Z8v" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
-          </node>
-          <node concept="3mB1cK" id="1gzloVU$Z8w" role="3mBdys">
-            <property role="TrG5h" value="protectedMethodPrivateClass" />
-            <property role="1wg9_F" value="2Ai0Gt9ODIw/protected" />
-            <node concept="19Rifw" id="1gzloVU$Z8x" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
-            <node concept="3XIRFW" id="1gzloVU$Z8y" role="3XIRFX" />
-          </node>
           <node concept="3mB1cK" id="1gzloVU$Z8z" role="3mBdys">
-            <property role="TrG5h" value="privateMethodPrivateClass" />
+            <property role="TrG5h" value="publicMethodPrivateClass" />
+            <property role="3WCqce" value="6lFVMypOl$D/public" />
             <node concept="19Rifw" id="1gzloVU$Z8$" role="2C2TGm">
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
             </node>
             <node concept="3XIRFW" id="1gzloVU$Z8_" role="3XIRFX" />
+          </node>
+          <node concept="3mB1cK" id="1Ax10u4hY4t" role="3mBdys">
+            <property role="TrG5h" value="protectedMethodPrivateClass" />
+            <property role="3WCqce" value="6lFVMypLN2N/protected" />
+            <node concept="19Rifw" id="1Ax10u4hY4u" role="2C2TGm">
+              <property role="2caQfQ" value="false" />
+              <property role="2c7vTL" value="false" />
+            </node>
+            <node concept="3XIRFW" id="1Ax10u4hY4v" role="3XIRFX" />
+          </node>
+          <node concept="3mB1cK" id="1Ax10u4hY55" role="3mBdys">
+            <property role="TrG5h" value="privateMethodPrivateClass" />
+            <node concept="19Rifw" id="1Ax10u4hY56" role="2C2TGm">
+              <property role="2caQfQ" value="false" />
+              <property role="2c7vTL" value="false" />
+            </node>
+            <node concept="3XIRFW" id="1Ax10u4hY57" role="3XIRFX" />
           </node>
         </node>
         <node concept="2NXPZ9" id="1gzloVU$Zba" role="N3F5h">
@@ -306,12 +302,12 @@
           <node concept="FysoC" id="1gzloVU$Zij" role="Fysvh">
             <ref role="FysoF" node="1gzloVU$Z8s" resolve="PrivateParentClass" />
           </node>
-          <node concept="FysoC" id="1gzloVU$Zim" role="Fysvh">
-            <property role="FysoG" value="2Ai0Gt9ODIw/protected" />
+          <node concept="FysoC" id="1Ax10u4hY7l" role="Fysvh">
+            <property role="3WIZ6h" value="6lFVMypLN2N/protected" />
             <ref role="FysoF" node="1gzloVU$Z1P" resolve="ProtectedParentClass" />
           </node>
-          <node concept="FysoC" id="1gzloVU$Zir" role="Fysvh">
-            <property role="FysoG" value="2Ai0Gt9ODIs/public" />
+          <node concept="FysoC" id="1Ax10u4hY96" role="Fysvh">
+            <property role="3WIZ6h" value="6lFVMypOl$D/public" />
             <ref role="FysoF" node="nbE_$_7VLV" resolve="PublicParentClass" />
           </node>
           <node concept="3mB1cK" id="1gzloVU_6LT" role="3mBdys">
@@ -332,12 +328,12 @@
               </node>
               <node concept="1_9egQ" id="1gzloVU_6Nh" role="3XIRFZ">
                 <node concept="3uHhno" id="1gzloVU_6Nf" role="1_9egR">
-                  <ref role="3uHhlH" node="6oRbCP68kRM" resolve="publicMethodPublicClass" />
+                  <ref role="3uHhlH" node="1Ax10u4hXYD" resolve="publicMethodPublicClass" />
                 </node>
               </node>
               <node concept="1_9egQ" id="1gzloVU_6NQ" role="3XIRFZ">
                 <node concept="3uHhno" id="1gzloVU_6NR" role="1_9egR">
-                  <ref role="3uHhlH" node="688xTXtQiNN" resolve="protectedMethodPublicClass" />
+                  <ref role="3uHhlH" node="1Ax10u4hXZA" resolve="protectedMethodPublicClass" />
                 </node>
               </node>
               <node concept="1_9egQ" id="1gzloVU_6P1" role="3XIRFZ">
@@ -360,12 +356,12 @@
               </node>
               <node concept="1_9egQ" id="1gzloVU_70D" role="3XIRFZ">
                 <node concept="3uHhno" id="1gzloVU_70B" role="1_9egR">
-                  <ref role="3uHhlH" node="1gzloVU$Z1Q" resolve="publicMethodProtectedClass" />
+                  <ref role="3uHhlH" node="1gzloVU$Z1W" resolve="publicMethodProtectedClass" />
                 </node>
               </node>
               <node concept="1_9egQ" id="1gzloVU_73J" role="3XIRFZ">
                 <node concept="3uHhno" id="1gzloVU_73H" role="1_9egR">
-                  <ref role="3uHhlH" node="1gzloVU$Z1T" resolve="protectedMethodProtectedClass" />
+                  <ref role="3uHhlH" node="1Ax10u4hY1F" resolve="protectedMethodProtectedClass" />
                 </node>
               </node>
               <node concept="1_9egQ" id="1gzloVU_77H" role="3XIRFZ">
@@ -388,17 +384,17 @@
               </node>
               <node concept="1_9egQ" id="1gzloVU_7jT" role="3XIRFZ">
                 <node concept="3uHhno" id="1gzloVU_7jR" role="1_9egR">
-                  <ref role="3uHhlH" node="1gzloVU$Z8t" resolve="publicMethodPrivateClass" />
+                  <ref role="3uHhlH" node="1gzloVU$Z8z" resolve="publicMethodPrivateClass" />
                 </node>
               </node>
               <node concept="1_9egQ" id="1gzloVU_7n3" role="3XIRFZ">
                 <node concept="3uHhno" id="1gzloVU_7n1" role="1_9egR">
-                  <ref role="3uHhlH" node="1gzloVU$Z8w" resolve="protectedMethodPrivateClass" />
+                  <ref role="3uHhlH" node="1Ax10u4hY4t" resolve="protectedMethodPrivateClass" />
                 </node>
               </node>
               <node concept="1_9egQ" id="1gzloVU_7qB" role="3XIRFZ">
                 <node concept="3uHhno" id="1gzloVU_7q_" role="1_9egR">
-                  <ref role="3uHhlH" node="1gzloVU$Z8z" resolve="privateMethodPrivateClass" />
+                  <ref role="3uHhlH" node="1gzloVU$Z8z" resolve="publicMethodPrivateClass" />
                   <node concept="7CXmI" id="1gzloVU_7x3" role="lGtFl">
                     <node concept="1TM$A" id="1gzloVU_7x4" role="7EUXB" />
                   </node>
@@ -410,110 +406,109 @@
         <node concept="2NXPZ9" id="1gzloVU_6B7" role="N3F5h">
           <property role="TrG5h" value="empty_1527761241089_14" />
         </node>
-        <node concept="3mBW2U" id="1gzloVU_6If" role="N3F5h">
-          <property role="2OOxQR" value="false" />
+        <node concept="3mBW2U" id="1Ax10u4hYkV" role="N3F5h">
+          <property role="3WCqce" value="6lFVMypOl$D/public" />
           <property role="TrG5h" value="BaseBaseClass" />
-          <node concept="FysoC" id="1gzloVU_6LQ" role="Fysvh">
-            <property role="FysoG" value="2Ai0Gt9ODIs/public" />
-            <ref role="FysoF" node="1gzloVU$ZfR" resolve="BaseClass" />
-          </node>
-          <node concept="3mB1cK" id="1gzloVU_7Fn" role="3mBdys">
+          <node concept="3mB1cK" id="1Ax10u4hYl3" role="3mBdys">
             <property role="TrG5h" value="inheritedClassTest" />
-            <node concept="19Rifw" id="1gzloVU_7Fy" role="2C2TGm">
+            <node concept="19Rifw" id="1Ax10u4hYl4" role="2C2TGm">
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
             </node>
-            <node concept="3XIRFW" id="1gzloVU_7My" role="3XIRFX">
-              <node concept="1QiMYF" id="1gzloVU_7Mz" role="3XIRFZ">
-                <node concept="OjmMv" id="1gzloVU_7M$" role="3SJzmv">
-                  <node concept="19SGf9" id="1gzloVU_7M_" role="OjmMu">
-                    <node concept="19SUe$" id="1gzloVU_7MA" role="19SJt6">
+            <node concept="3XIRFW" id="1Ax10u4hYl5" role="3XIRFX">
+              <node concept="1QiMYF" id="1Ax10u4hYl6" role="3XIRFZ">
+                <node concept="OjmMv" id="1Ax10u4hYl7" role="3SJzmv">
+                  <node concept="19SGf9" id="1Ax10u4hYl8" role="OjmMu">
+                    <node concept="19SUe$" id="1Ax10u4hYl9" role="19SJt6">
                       <property role="19SUeA" value="public extended class" />
                     </node>
                   </node>
                 </node>
               </node>
-              <node concept="1_9egQ" id="1gzloVU_7MB" role="3XIRFZ">
-                <node concept="3uHhno" id="1gzloVU_7MC" role="1_9egR">
-                  <ref role="3uHhlH" node="6oRbCP68kRM" resolve="publicMethodPublicClass" />
+              <node concept="1_9egQ" id="1Ax10u4hYla" role="3XIRFZ">
+                <node concept="3uHhno" id="1Ax10u4hYlb" role="1_9egR">
+                  <ref role="3uHhlH" node="1Ax10u4hXYD" resolve="publicMethodPublicClass" />
                 </node>
               </node>
-              <node concept="1_9egQ" id="1gzloVU_7MD" role="3XIRFZ">
-                <node concept="3uHhno" id="1gzloVU_7ME" role="1_9egR">
-                  <ref role="3uHhlH" node="688xTXtQiNN" resolve="protectedMethodPublicClass" />
+              <node concept="1_9egQ" id="1Ax10u4hYlc" role="3XIRFZ">
+                <node concept="3uHhno" id="1Ax10u4hYld" role="1_9egR">
+                  <ref role="3uHhlH" node="1Ax10u4hXZA" resolve="protectedMethodPublicClass" />
                 </node>
               </node>
-              <node concept="1_9egQ" id="1gzloVU_7MF" role="3XIRFZ">
-                <node concept="3uHhno" id="1gzloVU_7MG" role="1_9egR">
+              <node concept="1_9egQ" id="1Ax10u4hYle" role="3XIRFZ">
+                <node concept="3uHhno" id="1Ax10u4hYlf" role="1_9egR">
                   <ref role="3uHhlH" node="1gzloVU$YVH" resolve="privateMethodPublicClass" />
-                  <node concept="7CXmI" id="1gzloVU_7MH" role="lGtFl">
-                    <node concept="1TM$A" id="1gzloVU_7MI" role="7EUXB" />
+                  <node concept="7CXmI" id="1Ax10u4hYlg" role="lGtFl">
+                    <node concept="1TM$A" id="1Ax10u4hYlh" role="7EUXB" />
                   </node>
                 </node>
               </node>
-              <node concept="3XISUE" id="1gzloVU_7MJ" role="3XIRFZ" />
-              <node concept="1QiMYF" id="1gzloVU_7MK" role="3XIRFZ">
-                <node concept="OjmMv" id="1gzloVU_7ML" role="3SJzmv">
-                  <node concept="19SGf9" id="1gzloVU_7MM" role="OjmMu">
-                    <node concept="19SUe$" id="1gzloVU_7MN" role="19SJt6">
+              <node concept="3XISUE" id="1Ax10u4hYli" role="3XIRFZ" />
+              <node concept="1QiMYF" id="1Ax10u4hYlj" role="3XIRFZ">
+                <node concept="OjmMv" id="1Ax10u4hYlk" role="3SJzmv">
+                  <node concept="19SGf9" id="1Ax10u4hYll" role="OjmMu">
+                    <node concept="19SUe$" id="1Ax10u4hYlm" role="19SJt6">
                       <property role="19SUeA" value="protected extended class" />
                     </node>
                   </node>
                 </node>
               </node>
-              <node concept="1_9egQ" id="1gzloVU_7MO" role="3XIRFZ">
-                <node concept="3uHhno" id="1gzloVU_7MP" role="1_9egR">
-                  <ref role="3uHhlH" node="1gzloVU$Z1Q" resolve="publicMethodProtectedClass" />
+              <node concept="1_9egQ" id="1Ax10u4hYln" role="3XIRFZ">
+                <node concept="3uHhno" id="1Ax10u4hYlo" role="1_9egR">
+                  <ref role="3uHhlH" node="1gzloVU$Z1W" resolve="publicMethodProtectedClass" />
                 </node>
               </node>
-              <node concept="1_9egQ" id="1gzloVU_7MQ" role="3XIRFZ">
-                <node concept="3uHhno" id="1gzloVU_7MR" role="1_9egR">
-                  <ref role="3uHhlH" node="1gzloVU$Z1T" resolve="protectedMethodProtectedClass" />
+              <node concept="1_9egQ" id="1Ax10u4hYlp" role="3XIRFZ">
+                <node concept="3uHhno" id="1Ax10u4hYlq" role="1_9egR">
+                  <ref role="3uHhlH" node="1Ax10u4hY1F" resolve="protectedMethodProtectedClass" />
                 </node>
               </node>
-              <node concept="1_9egQ" id="1gzloVU_7MS" role="3XIRFZ">
-                <node concept="3uHhno" id="1gzloVU_7MT" role="1_9egR">
-                  <ref role="3uHhlH" node="1gzloVU$Z8z" resolve="privateMethodPrivateClass" />
-                  <node concept="7CXmI" id="1gzloVU_7MU" role="lGtFl">
-                    <node concept="1TM$A" id="1gzloVU_7MV" role="7EUXB" />
+              <node concept="1_9egQ" id="1Ax10u4hYlr" role="3XIRFZ">
+                <node concept="3uHhno" id="1Ax10u4hYls" role="1_9egR">
+                  <ref role="3uHhlH" node="1gzloVU$Z8z" resolve="publicMethodPrivateClass" />
+                  <node concept="7CXmI" id="1Ax10u4hYlt" role="lGtFl">
+                    <node concept="1TM$A" id="1Ax10u4hYlu" role="7EUXB" />
                   </node>
                 </node>
               </node>
-              <node concept="3XISUE" id="1gzloVU_7MW" role="3XIRFZ" />
-              <node concept="1QiMYF" id="1gzloVU_7MX" role="3XIRFZ">
-                <node concept="OjmMv" id="1gzloVU_7MY" role="3SJzmv">
-                  <node concept="19SGf9" id="1gzloVU_7MZ" role="OjmMu">
-                    <node concept="19SUe$" id="1gzloVU_7N0" role="19SJt6">
+              <node concept="3XISUE" id="1Ax10u4hYlv" role="3XIRFZ" />
+              <node concept="1QiMYF" id="1Ax10u4hYlw" role="3XIRFZ">
+                <node concept="OjmMv" id="1Ax10u4hYlx" role="3SJzmv">
+                  <node concept="19SGf9" id="1Ax10u4hYly" role="OjmMu">
+                    <node concept="19SUe$" id="1Ax10u4hYlz" role="19SJt6">
                       <property role="19SUeA" value="private extended class" />
                     </node>
                   </node>
                 </node>
               </node>
-              <node concept="1_9egQ" id="1gzloVU_7N1" role="3XIRFZ">
-                <node concept="3uHhno" id="1gzloVU_7N2" role="1_9egR">
-                  <ref role="3uHhlH" node="1gzloVU$Z8t" resolve="publicMethodPrivateClass" />
-                  <node concept="7CXmI" id="1gzloVU_83i" role="lGtFl">
-                    <node concept="1TM$A" id="1gzloVU_83j" role="7EUXB" />
+              <node concept="1_9egQ" id="1Ax10u4hYl$" role="3XIRFZ">
+                <node concept="3uHhno" id="1Ax10u4hYl_" role="1_9egR">
+                  <ref role="3uHhlH" node="1gzloVU$Z8z" resolve="publicMethodPrivateClass" />
+                  <node concept="7CXmI" id="1Ax10u4hYlA" role="lGtFl">
+                    <node concept="1TM$A" id="1Ax10u4hYlB" role="7EUXB" />
                   </node>
                 </node>
               </node>
-              <node concept="1_9egQ" id="1gzloVU_7N3" role="3XIRFZ">
-                <node concept="3uHhno" id="1gzloVU_7N4" role="1_9egR">
-                  <ref role="3uHhlH" node="1gzloVU$Z8w" resolve="protectedMethodPrivateClass" />
-                  <node concept="7CXmI" id="1gzloVU_7Ws" role="lGtFl">
-                    <node concept="1TM$A" id="1gzloVU_7Wt" role="7EUXB" />
+              <node concept="1_9egQ" id="1Ax10u4hYlC" role="3XIRFZ">
+                <node concept="3uHhno" id="1Ax10u4hYlD" role="1_9egR">
+                  <ref role="3uHhlH" node="1Ax10u4hY4t" resolve="protectedMethodPrivateClass" />
+                  <node concept="7CXmI" id="1Ax10u4hYlE" role="lGtFl">
+                    <node concept="1TM$A" id="1Ax10u4hYlF" role="7EUXB" />
                   </node>
                 </node>
               </node>
-              <node concept="1_9egQ" id="1gzloVU_7N5" role="3XIRFZ">
-                <node concept="3uHhno" id="1gzloVU_7N6" role="1_9egR">
-                  <ref role="3uHhlH" node="1gzloVU$Z8z" resolve="privateMethodPrivateClass" />
-                  <node concept="7CXmI" id="1gzloVU_7N7" role="lGtFl">
-                    <node concept="1TM$A" id="1gzloVU_7N8" role="7EUXB" />
+              <node concept="1_9egQ" id="1Ax10u4hYlG" role="3XIRFZ">
+                <node concept="3uHhno" id="1Ax10u4hYlH" role="1_9egR">
+                  <ref role="3uHhlH" node="1gzloVU$Z8z" resolve="publicMethodPrivateClass" />
+                  <node concept="7CXmI" id="1Ax10u4hYlI" role="lGtFl">
+                    <node concept="1TM$A" id="1Ax10u4hYlJ" role="7EUXB" />
                   </node>
                 </node>
               </node>
             </node>
+          </node>
+          <node concept="FysoC" id="1Ax10u4hYl2" role="Fysvh">
+            <ref role="FysoF" node="1gzloVU$ZfR" resolve="BaseClass" />
           </node>
         </node>
         <node concept="2NXPZ9" id="1gzloVU_644" role="N3F5h">
@@ -551,7 +546,7 @@
             <node concept="1_9egQ" id="1gzloVU_0oe" role="3XIRFZ">
               <node concept="2qmXGp" id="1gzloVU_0ot" role="1_9egR">
                 <node concept="3mBbHP" id="1gzloVU_0u2" role="1ESnxz">
-                  <ref role="3mBbHN" node="6oRbCP68kRM" resolve="publicMethodPublicClass" />
+                  <ref role="3mBbHN" node="1Ax10u4hXYD" resolve="publicMethodPublicClass" />
                 </node>
                 <node concept="3ZVu4v" id="1gzloVU_0oc" role="1_9fRO">
                   <ref role="3ZVs_2" node="1gzloVU_0mD" resolve="baseClass" />
@@ -561,7 +556,7 @@
             <node concept="1_9egQ" id="1gzloVU_0vc" role="3XIRFZ">
               <node concept="2qmXGp" id="1gzloVU_0vz" role="1_9egR">
                 <node concept="3mBbHP" id="1gzloVU_0wd" role="1ESnxz">
-                  <ref role="3mBbHN" node="688xTXtQiNN" resolve="protectedMethodPublicClass" />
+                  <ref role="3mBbHN" node="1Ax10u4hXZA" resolve="protectedMethodPublicClass" />
                   <node concept="7CXmI" id="1gzloVU_3TY" role="lGtFl">
                     <node concept="1TM$A" id="1gzloVU_3TZ" role="7EUXB" />
                   </node>
@@ -597,7 +592,7 @@
             <node concept="1_9egQ" id="1gzloVU_0AQ" role="3XIRFZ">
               <node concept="2qmXGp" id="1gzloVU_0BD" role="1_9egR">
                 <node concept="3mBbHP" id="1gzloVU_0CJ" role="1ESnxz">
-                  <ref role="3mBbHN" node="1gzloVU$Z1Q" resolve="publicMethodProtectedClass" />
+                  <ref role="3mBbHN" node="1gzloVU$Z1W" resolve="publicMethodProtectedClass" />
                   <node concept="7CXmI" id="1gzloVU_40E" role="lGtFl">
                     <node concept="1TM$A" id="1gzloVU_40F" role="7EUXB" />
                   </node>
@@ -610,7 +605,7 @@
             <node concept="1_9egQ" id="1gzloVU_0Eg" role="3XIRFZ">
               <node concept="2qmXGp" id="1gzloVU_0Fb" role="1_9egR">
                 <node concept="3mBbHP" id="1gzloVU_13X" role="1ESnxz">
-                  <ref role="3mBbHN" node="1gzloVU$Z1T" resolve="protectedMethodProtectedClass" />
+                  <ref role="3mBbHN" node="1Ax10u4hY1F" resolve="protectedMethodProtectedClass" />
                   <node concept="7CXmI" id="1gzloVU_3Fo" role="lGtFl">
                     <node concept="1TM$A" id="1gzloVU_3Fp" role="7EUXB" />
                   </node>
@@ -646,7 +641,7 @@
             <node concept="1_9egQ" id="1gzloVU_1fh" role="3XIRFZ">
               <node concept="2qmXGp" id="1gzloVU_1gA" role="1_9egR">
                 <node concept="3mBbHP" id="1gzloVU_1im" role="1ESnxz">
-                  <ref role="3mBbHN" node="1gzloVU$Z8t" resolve="publicMethodPrivateClass" />
+                  <ref role="3mBbHN" node="1gzloVU$Z8z" resolve="publicMethodPrivateClass" />
                   <node concept="7CXmI" id="1gzloVU_3Xk" role="lGtFl">
                     <node concept="1TM$A" id="1gzloVU_3Xl" role="7EUXB" />
                   </node>
@@ -659,7 +654,7 @@
             <node concept="1_9egQ" id="1gzloVU_1pZ" role="3XIRFZ">
               <node concept="2qmXGp" id="1gzloVU_1r$" role="1_9egR">
                 <node concept="3mBbHP" id="1gzloVU_1w1" role="1ESnxz">
-                  <ref role="3mBbHN" node="1gzloVU$Z8w" resolve="protectedMethodPrivateClass" />
+                  <ref role="3mBbHN" node="1Ax10u4hY4t" resolve="protectedMethodPrivateClass" />
                   <node concept="7CXmI" id="1gzloVU_3iu" role="lGtFl">
                     <node concept="1TM$A" id="1gzloVU_3iv" role="7EUXB" />
                   </node>
@@ -712,54 +707,36 @@
         <node concept="3mBW2U" id="1gzloVU_9IW" role="N3F5h">
           <property role="2OOxQR" value="false" />
           <property role="TrG5h" value="SomeClass" />
-          <node concept="3mBbG7" id="1gzloVU_9IX" role="3mBdys">
+          <node concept="3mBbG7" id="1Ax10u4hXgF" role="3mBdys">
             <property role="TrG5h" value="publicAttribute" />
-            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
-            <node concept="26Vqph" id="1gzloVU_9IY" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
+            <property role="3WCqce" value="6lFVMypOl$D/public" />
+            <node concept="26Vqph" id="1Ax10u4hXgD" role="2C2TGm" />
           </node>
-          <node concept="3mBbG7" id="1gzloVU_9IZ" role="3mBdys">
+          <node concept="3mBbG7" id="1Ax10u4hXhu" role="3mBdys">
             <property role="TrG5h" value="protectedAttribute" />
-            <property role="1wg9_F" value="2Ai0Gt9ODIw/protected" />
-            <node concept="26Vqph" id="1gzloVU_9J0" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
+            <property role="3WCqce" value="6lFVMypLN2N/protected" />
+            <node concept="26Vqph" id="1Ax10u4hXhv" role="2C2TGm" />
           </node>
-          <node concept="3mBbG7" id="1gzloVU_9J1" role="3mBdys">
+          <node concept="3mBbG7" id="1Ax10u4hXhA" role="3mBdys">
             <property role="TrG5h" value="privateAttribute" />
-            <node concept="26Vqph" id="1gzloVU_9J2" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
+            <node concept="26Vqph" id="1Ax10u4hXhB" role="2C2TGm" />
           </node>
-          <node concept="3mB1cK" id="1gzloVU_9J3" role="3mBdys">
+          <node concept="3mB1cK" id="1Ax10u4hXyY" role="3mBdys">
             <property role="TrG5h" value="publicMethod" />
-            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
-            <node concept="3XIRFW" id="1gzloVU_9J4" role="3XIRFX" />
-            <node concept="19Rifw" id="1gzloVU_9J5" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
+            <property role="3WCqce" value="6lFVMypOl$D/public" />
+            <node concept="19Rifw" id="1Ax10u4hXzc" role="2C2TGm" />
+            <node concept="3XIRFW" id="1Ax10u4hXzp" role="3XIRFX" />
           </node>
-          <node concept="3mB1cK" id="1gzloVU_9J6" role="3mBdys">
+          <node concept="3mB1cK" id="1Ax10u4hXzv" role="3mBdys">
             <property role="TrG5h" value="protectedMethod" />
-            <property role="1wg9_F" value="2Ai0Gt9ODIw/protected" />
-            <node concept="3XIRFW" id="1gzloVU_9J7" role="3XIRFX" />
-            <node concept="19Rifw" id="1gzloVU_9J8" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
+            <property role="3WCqce" value="6lFVMypLN2N/protected" />
+            <node concept="19Rifw" id="1Ax10u4hXzw" role="2C2TGm" />
+            <node concept="3XIRFW" id="1Ax10u4hXzx" role="3XIRFX" />
           </node>
-          <node concept="3mB1cK" id="1gzloVU_9J9" role="3mBdys">
+          <node concept="3mB1cK" id="1Ax10u4hXzC" role="3mBdys">
             <property role="TrG5h" value="privateMethod" />
-            <node concept="3XIRFW" id="1gzloVU_9Ja" role="3XIRFX" />
-            <node concept="19Rifw" id="1gzloVU_9Jb" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
+            <node concept="19Rifw" id="1Ax10u4hXzD" role="2C2TGm" />
+            <node concept="3XIRFW" id="1Ax10u4hXzE" role="3XIRFX" />
           </node>
         </node>
         <node concept="2NXPZ9" id="1gzloVU_9Jc" role="N3F5h">
@@ -787,7 +764,7 @@
             <node concept="1_9egQ" id="1gzloVU_9Jh" role="3XIRFZ">
               <node concept="2qmXGp" id="1gzloVU_9Ji" role="1_9egR">
                 <node concept="3mBk1D" id="1gzloVU_9Jj" role="1ESnxz">
-                  <ref role="3mBk1B" node="1gzloVU_9IX" resolve="publicAttribute" />
+                  <ref role="3mBk1B" node="1Ax10u4hXgF" resolve="publicAttribute" />
                 </node>
                 <node concept="3ZVu4v" id="1gzloVU_9Jk" role="1_9fRO">
                   <ref role="3ZVs_2" node="1gzloVU_9Jf" resolve="someClass" />
@@ -797,7 +774,7 @@
             <node concept="1_9egQ" id="1gzloVU_9Jl" role="3XIRFZ">
               <node concept="2qmXGp" id="1gzloVU_9Jm" role="1_9egR">
                 <node concept="3mBk1D" id="1gzloVU_9Jn" role="1ESnxz">
-                  <ref role="3mBk1B" node="1gzloVU_9IZ" resolve="protectedAttribute" />
+                  <ref role="3mBk1B" node="1Ax10u4hXhu" resolve="protectedAttribute" />
                   <node concept="7CXmI" id="1gzloVU_9Jo" role="lGtFl">
                     <node concept="1TM$A" id="1gzloVU_9Jp" role="7EUXB" />
                   </node>
@@ -810,7 +787,7 @@
             <node concept="1_9egQ" id="1gzloVU_9Jr" role="3XIRFZ">
               <node concept="2qmXGp" id="1gzloVU_9Js" role="1_9egR">
                 <node concept="3mBk1D" id="1gzloVU_9Jt" role="1ESnxz">
-                  <ref role="3mBk1B" node="1gzloVU_9J1" resolve="privateAttribute" />
+                  <ref role="3mBk1B" node="1Ax10u4hXhA" resolve="privateAttribute" />
                   <node concept="7CXmI" id="1gzloVU_9Ju" role="lGtFl">
                     <node concept="1TM$A" id="1gzloVU_9Jv" role="7EUXB" />
                   </node>
@@ -823,7 +800,7 @@
             <node concept="1_9egQ" id="1gzloVU_9Jx" role="3XIRFZ">
               <node concept="2qmXGp" id="1gzloVU_9Jy" role="1_9egR">
                 <node concept="3mBbHP" id="1gzloVU_9Jz" role="1ESnxz">
-                  <ref role="3mBbHN" node="1gzloVU_9J3" resolve="publicMethod" />
+                  <ref role="3mBbHN" node="1Ax10u4hXyY" resolve="publicMethod" />
                 </node>
                 <node concept="3ZVu4v" id="1gzloVU_9J$" role="1_9fRO">
                   <ref role="3ZVs_2" node="1gzloVU_9Jf" resolve="someClass" />
@@ -833,7 +810,7 @@
             <node concept="1_9egQ" id="1gzloVU_9J_" role="3XIRFZ">
               <node concept="2qmXGp" id="1gzloVU_9JA" role="1_9egR">
                 <node concept="3mBbHP" id="1gzloVU_9JB" role="1ESnxz">
-                  <ref role="3mBbHN" node="1gzloVU_9J6" resolve="protectedMethod" />
+                  <ref role="3mBbHN" node="1Ax10u4hXzv" resolve="protectedMethod" />
                   <node concept="7CXmI" id="1gzloVU_9JC" role="lGtFl">
                     <node concept="1TM$A" id="1gzloVU_9JD" role="7EUXB" />
                   </node>
@@ -846,7 +823,7 @@
             <node concept="1_9egQ" id="1gzloVU_9JF" role="3XIRFZ">
               <node concept="2qmXGp" id="1gzloVU_9JG" role="1_9egR">
                 <node concept="3mBbHP" id="1gzloVU_9JH" role="1ESnxz">
-                  <ref role="3mBbHN" node="1gzloVU_9J9" resolve="privateMethod" />
+                  <ref role="3mBbHN" node="1Ax10u4hXzC" resolve="privateMethod" />
                   <node concept="7CXmI" id="1gzloVU_9JI" role="lGtFl">
                     <node concept="1TM$A" id="1gzloVU_9JJ" role="7EUXB" />
                   </node>
@@ -879,14 +856,10 @@
         <node concept="3mBW2U" id="3p40HKhyECX" role="N3F5h">
           <property role="2OOxQR" value="true" />
           <property role="TrG5h" value="BaseOne" />
-          <node concept="3mBbG7" id="3p40HKhyEEx" role="3mBdys">
-            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+          <node concept="3mBbG7" id="1Ax10u4hZsF" role="3mBdys">
             <property role="TrG5h" value="thisField" />
-            <node concept="26Vqqz" id="3p40HKhyEEy" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
-            <node concept="3TlMh9" id="3p40HKhyEEz" role="3XIe9u">
+            <node concept="26Vqqz" id="1Ax10u4hZsD" role="2C2TGm" />
+            <node concept="3TlMh9" id="1Ax10u4hZtd" role="3XIe9u">
               <property role="2hmy$m" value="42" />
             </node>
           </node>
@@ -897,27 +870,30 @@
         <node concept="3mBW2U" id="3p40HKhyEDj" role="N3F5h">
           <property role="2OOxQR" value="true" />
           <property role="TrG5h" value="BaseTwo" />
-          <node concept="3mBbG7" id="3p40HKhyEDt" role="3mBdys">
-            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+          <node concept="3mBbG7" id="1Ax10u4hZLN" role="3mBdys">
             <property role="TrG5h" value="thisField" />
-            <node concept="26Vqqz" id="3p40HKhyEDH" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
-            <node concept="3TlMh9" id="3p40HKhyEE8" role="3XIe9u">
+            <node concept="26Vqqz" id="1Ax10u4hZLL" role="2C2TGm" />
+            <node concept="3TlMh9" id="1Ax10u4hZMV" role="3XIe9u">
               <property role="2hmy$m" value="35" />
             </node>
           </node>
-          <node concept="3mB1cK" id="3p40HKhyF6l" role="3mBdys">
-            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+          <node concept="3mB1cK" id="1Ax10u4i07H" role="3mBdys">
             <property role="TrG5h" value="thisMethod" />
-            <node concept="26Vqqz" id="3p40HKhyF6H" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
+            <node concept="26Vqqz" id="1Ax10u4i08K" role="2C2TGm" />
+            <node concept="3XIRFW" id="1Ax10u4i097" role="3XIRFX">
+              <node concept="2BFjQ_" id="1Ax10u4i0LT" role="3XIRFZ">
+                <node concept="3TlMh9" id="1Ax10u4i0M6" role="2BFjQA">
+                  <property role="2hmy$m" value="35" />
+                </node>
+              </node>
             </node>
-            <node concept="3XIRFW" id="3p40HKhyF71" role="3XIRFX">
-              <node concept="2BFjQ_" id="3p40HKhyF7p" role="3XIRFZ">
-                <node concept="3TlMh9" id="3p40HKhyF8p" role="2BFjQA">
+          </node>
+          <node concept="3mB1cK" id="1Ax10u4i3c9" role="3mBdys">
+            <property role="TrG5h" value="thisMethod" />
+            <node concept="26Vqqz" id="1Ax10u4i3dc" role="2C2TGm" />
+            <node concept="3XIRFW" id="1Ax10u4i3dz" role="3XIRFX">
+              <node concept="2BFjQ_" id="1Ax10u4i3Qn" role="3XIRFZ">
+                <node concept="3TlMh9" id="1Ax10u4i3Qz" role="2BFjQA">
                   <property role="2hmy$m" value="35" />
                 </node>
               </node>
@@ -930,16 +906,12 @@
         <node concept="3mBW2U" id="3p40HKhyF5b" role="N3F5h">
           <property role="2OOxQR" value="true" />
           <property role="TrG5h" value="BaseThree" />
-          <node concept="3mB1cK" id="3p40HKhyFb_" role="3mBdys">
-            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+          <node concept="3mB1cK" id="1Ax10u4i2lR" role="3mBdys">
             <property role="TrG5h" value="thisMethod" />
-            <node concept="26Vqqz" id="3p40HKhyFbA" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
-            <node concept="3XIRFW" id="3p40HKhyFbB" role="3XIRFX">
-              <node concept="2BFjQ_" id="3p40HKhyFbC" role="3XIRFZ">
-                <node concept="3TlMh9" id="3p40HKhyFbD" role="2BFjQA">
+            <node concept="26Vqqz" id="1Ax10u4i2mU" role="2C2TGm" />
+            <node concept="3XIRFW" id="1Ax10u4i2nm" role="3XIRFX">
+              <node concept="2BFjQ_" id="1Ax10u4i2ZW" role="3XIRFZ">
+                <node concept="3TlMh9" id="1Ax10u4i309" role="2BFjQA">
                   <property role="2hmy$m" value="42" />
                 </node>
               </node>
@@ -952,23 +924,21 @@
         <node concept="3mBW2U" id="3p40HKhyEFT" role="N3F5h">
           <property role="2OOxQR" value="true" />
           <property role="TrG5h" value="ChildClass" />
-          <node concept="FysoC" id="3p40HKhyEGF" role="Fysvh">
-            <property role="FysoG" value="2Ai0Gt9ODIs/public" />
+          <node concept="FysoC" id="1Ax10u4i35l" role="Fysvh">
             <ref role="FysoF" node="3p40HKhyECX" resolve="BaseOne" />
-            <node concept="7CXmI" id="3p40HKhyIwi" role="lGtFl">
-              <node concept="1TM$A" id="3p40HKhyIwj" role="7EUXB">
-                <node concept="2PYRI3" id="3p40HKhyJhZ" role="3lydEf">
+            <node concept="7CXmI" id="1Ax10u4i3V5" role="lGtFl">
+              <node concept="1TM$A" id="1Ax10u4i3V6" role="7EUXB">
+                <node concept="2PYRI3" id="1Ax10u4i3V7" role="3lydEf">
                   <ref role="39XzEq" to="g7jk:3p40HKhxSpT" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="FysoC" id="3p40HKhyEGI" role="Fysvh">
-            <property role="FysoG" value="2Ai0Gt9ODIs/public" />
+          <node concept="FysoC" id="1Ax10u4i3V4" role="Fysvh">
             <ref role="FysoF" node="3p40HKhyEDj" resolve="BaseTwo" />
-            <node concept="7CXmI" id="3p40HKhyIrJ" role="lGtFl">
-              <node concept="1TM$A" id="3p40HKhyIrK" role="7EUXB">
-                <node concept="2PYRI3" id="3p40HKhyJi2" role="3lydEf">
+            <node concept="7CXmI" id="1Ax10u4i3V8" role="lGtFl">
+              <node concept="1TM$A" id="1Ax10u4i3V9" role="7EUXB">
+                <node concept="2PYRI3" id="1Ax10u4i3Va" role="3lydEf">
                   <ref role="39XzEq" to="g7jk:3p40HKhxSpT" />
                 </node>
               </node>
@@ -982,23 +952,21 @@
         <node concept="3mBW2U" id="3p40HKhyFn2" role="N3F5h">
           <property role="2OOxQR" value="true" />
           <property role="TrG5h" value="ChildClassTwo" />
-          <node concept="FysoC" id="3p40HKhyFrI" role="Fysvh">
-            <property role="FysoG" value="2Ai0Gt9ODIs/public" />
+          <node concept="FysoC" id="1Ax10u4i3Vb" role="Fysvh">
             <ref role="FysoF" node="3p40HKhyEDj" resolve="BaseTwo" />
-            <node concept="7CXmI" id="3p40HKhzpI2" role="lGtFl">
-              <node concept="1TM$A" id="3p40HKhzpI3" role="7EUXB">
-                <node concept="2PYRI3" id="3p40HKhzpIa" role="3lydEf">
+            <node concept="7CXmI" id="1Ax10u4i3Vd" role="lGtFl">
+              <node concept="1TM$A" id="1Ax10u4i3Ve" role="7EUXB">
+                <node concept="2PYRI3" id="1Ax10u4i3Vg" role="3lydEf">
                   <ref role="39XzEq" to="g7jk:3p40HKhyb1C" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="FysoC" id="3p40HKhyFrL" role="Fysvh">
-            <property role="FysoG" value="2Ai0Gt9ODIs/public" />
+          <node concept="FysoC" id="1Ax10u4i3Vc" role="Fysvh">
             <ref role="FysoF" node="3p40HKhyF5b" resolve="BaseThree" />
-            <node concept="7CXmI" id="3p40HKhzpMC" role="lGtFl">
-              <node concept="1TM$A" id="3p40HKhzpMD" role="7EUXB">
-                <node concept="2PYRI3" id="3p40HKhzpMK" role="3lydEf">
+            <node concept="7CXmI" id="1Ax10u4i3Vh" role="lGtFl">
+              <node concept="1TM$A" id="1Ax10u4i3Vi" role="7EUXB">
+                <node concept="2PYRI3" id="1Ax10u4i3Vj" role="3lydEf">
                   <ref role="39XzEq" to="g7jk:3p40HKhyb1C" />
                 </node>
               </node>

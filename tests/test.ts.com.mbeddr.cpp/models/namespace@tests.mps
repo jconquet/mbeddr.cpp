@@ -129,7 +129,7 @@
       </concept>
       <concept id="5044697665789421259" name="com.mbeddr.cpp.base.structure.AttributeDeclaration" flags="ng" index="3mBbG7" />
       <concept id="5044697665789421253" name="com.mbeddr.cpp.base.structure.IClassMemberDeclaration" flags="ng" index="3mBbG9">
-        <property id="2995459757115087788" name="visibility" index="1wg9_F" />
+        <property id="7308197777996663846" name="visibility" index="3WCqce" />
       </concept>
       <concept id="5044697665789405022" name="com.mbeddr.cpp.base.structure.ClassType" flags="ng" index="3mBfEi">
         <reference id="5044697665789405054" name="class" index="3mBfEM" />
@@ -279,22 +279,15 @@
           <node concept="3mBW2U" id="mwDIXwE$bH" role="ds5Fi">
             <property role="2OOxQR" value="false" />
             <property role="TrG5h" value="AClass" />
-            <node concept="3mBbG7" id="mwDIXwE$cj" role="3mBdys">
-              <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+            <node concept="3mBbG7" id="1Ax10u4hPJl" role="3mBdys">
               <property role="TrG5h" value="aClassInt" />
-              <node concept="26Vqph" id="mwDIXwE$cz" role="2C2TGm">
-                <property role="2caQfQ" value="false" />
-                <property role="2c7vTL" value="false" />
-              </node>
+              <node concept="26Vqph" id="1Ax10u4hPJj" role="2C2TGm" />
             </node>
-            <node concept="3mB1cK" id="mwDIXwF0Vb" role="3mBdys">
-              <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+            <node concept="3mB1cK" id="1Ax10u4hPXq" role="3mBdys">
               <property role="TrG5h" value="aClassVoid" />
-              <node concept="19Rifw" id="mwDIXwF0Vc" role="2C2TGm">
-                <property role="2caQfQ" value="false" />
-                <property role="2c7vTL" value="false" />
-              </node>
-              <node concept="3XIRFW" id="mwDIXwF0Vd" role="3XIRFX" />
+              <property role="3WCqce" value="6lFVMypOl$D/public" />
+              <node concept="19Rifw" id="1Ax10u4hPXC" role="2C2TGm" />
+              <node concept="3XIRFW" id="1Ax10u4hPXU" role="3XIRFX" />
             </node>
           </node>
           <node concept="dq960" id="mwDIXwE$el" role="ds5Fi">
@@ -518,7 +511,7 @@
             <node concept="1_9egQ" id="mwDIXwF4Yp" role="3XIRFZ">
               <node concept="2qmXGp" id="mwDIXwF4Zt" role="1_9egR">
                 <node concept="3mBbHP" id="mwDIXwF4ZT" role="1ESnxz">
-                  <ref role="3mBbHN" node="mwDIXwF0Vb" resolve="aClassVoid" />
+                  <ref role="3mBbHN" node="1Ax10u4hPXq" resolve="aClassVoid" />
                 </node>
                 <node concept="3ZVu4v" id="mwDIXwF4Yn" role="1_9fRO">
                   <ref role="3ZVs_2" node="mwDIXwF4in" resolve="aClass" />

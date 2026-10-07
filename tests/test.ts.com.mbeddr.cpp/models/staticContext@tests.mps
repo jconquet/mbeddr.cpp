@@ -78,9 +78,6 @@
       <concept id="5044697665789421259" name="com.mbeddr.cpp.base.structure.AttributeDeclaration" flags="ng" index="3mBbG7">
         <child id="4185783222026502647" name="init" index="3XIe9u" />
       </concept>
-      <concept id="5044697665789421253" name="com.mbeddr.cpp.base.structure.IClassMemberDeclaration" flags="ng" index="3mBbG9">
-        <property id="2995459757115087788" name="visibility" index="1wg9_F" />
-      </concept>
       <concept id="5044697665789336950" name="com.mbeddr.cpp.base.structure.ClassDeclaration" flags="ng" index="3mBW2U">
         <child id="5044697665789396304" name="members" index="3mBdys" />
       </concept>
@@ -153,20 +150,16 @@
         <node concept="3mBW2U" id="7j9KGYMR9xY" role="N3F5h">
           <property role="2OOxQR" value="true" />
           <property role="TrG5h" value="SomeClass" />
-          <node concept="3mBbG7" id="7j9KGYMR9y4" role="3mBdys">
+          <node concept="3mBbG7" id="1Ax10u4i49h" role="3mBdys">
             <property role="TrG5h" value="static_field" />
             <property role="226hDV" value="true" />
-            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
-            <node concept="26Vqph" id="7j9KGYMR9yf" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
-            <node concept="3uHhno" id="7j9KGYMR9Yu" role="3XIe9u">
+            <node concept="26Vqph" id="1Ax10u4i49f" role="2C2TGm" />
+            <node concept="3uHhno" id="1Ax10u4i4aU" role="3XIe9u">
               <ref role="3uHhlH" node="7j9KGYMR9z5" resolve="non_constexpr_method" />
             </node>
-            <node concept="7CXmI" id="7j9KGYMRa5H" role="lGtFl">
-              <node concept="1TM$A" id="7j9KGYMRa5I" role="7EUXB">
-                <node concept="2PYRI3" id="7j9KGYMRa7e" role="3lydEf">
+            <node concept="7CXmI" id="1Ax10u4i4bi" role="lGtFl">
+              <node concept="1TM$A" id="1Ax10u4i4bj" role="7EUXB">
+                <node concept="2PYRI3" id="1Ax10u4i4bv" role="3lydEf">
                   <ref role="39XzEq" to="g7jk:7j9KGYMO2sP" />
                 </node>
               </node>

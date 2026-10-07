@@ -68,7 +68,7 @@
         <reference id="4511589886097466674" name="parentClass" index="FysoF" />
       </concept>
       <concept id="5044697665789421253" name="com.mbeddr.cpp.base.structure.IClassMemberDeclaration" flags="ng" index="3mBbG9">
-        <property id="2995459757115087788" name="visibility" index="1wg9_F" />
+        <property id="7308197777996663846" name="visibility" index="3WCqce" />
       </concept>
       <concept id="5044697665789336950" name="com.mbeddr.cpp.base.structure.ClassDeclaration" flags="ng" index="3mBW2U">
         <child id="4511589886097466568" name="ancestors" index="Fysvh" />
@@ -134,81 +134,70 @@
     <node concept="1qefOq" id="1gzloVU_9IU" role="1SKRRt">
       <node concept="1whW_1" id="1gzloVU_9IV" role="1qenE9">
         <property role="TrG5h" value="InheritanceInstance" />
-        <node concept="3mBW2U" id="2cA2PdZpQWn" role="N3F5h">
-          <property role="2OOxQR" value="false" />
-          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+        <node concept="3mBW2U" id="1Ax10u4itmO" role="N3F5h">
+          <property role="3WCqce" value="6lFVMypOl$D/public" />
           <property role="TrG5h" value="A" />
-          <node concept="FysoC" id="2cA2PdZpR9a" role="Fysvh">
-            <ref role="FysoF" node="2cA2PdZpQWn" resolve="A" />
-            <node concept="7CXmI" id="2cA2PdZpR9d" role="lGtFl">
-              <node concept="1TM$A" id="2cA2PdZpR9e" role="7EUXB">
-                <node concept="2PYRI3" id="2cA2PdZpR9l" role="3lydEf">
+          <node concept="FysoC" id="1Ax10u4itmR" role="Fysvh">
+            <ref role="FysoF" node="1Ax10u4itmO" resolve="A" />
+            <node concept="7CXmI" id="1Ax10u4itmS" role="lGtFl">
+              <node concept="1TM$A" id="1Ax10u4itmT" role="7EUXB">
+                <node concept="2PYRI3" id="1Ax10u4itmU" role="3lydEf">
                   <ref role="39XzEq" to="g7jk:4K6s$_sMeU9" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="2NXPZ9" id="2cA2PdZpRzo" role="N3F5h">
-          <property role="TrG5h" value="empty_1529393811584_3" />
-        </node>
-        <node concept="3mBW2U" id="2cA2PdZpRzO" role="N3F5h">
-          <property role="2OOxQR" value="false" />
-          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+        <node concept="3mBW2U" id="1Ax10u4ituN" role="N3F5h">
+          <property role="3WCqce" value="6lFVMypOl$D/public" />
           <property role="TrG5h" value="B" />
-          <node concept="FysoC" id="2cA2PdZpR$5" role="Fysvh">
-            <ref role="FysoF" node="2cA2PdZpRzh" resolve="NotExportedClass" />
-            <node concept="7CXmI" id="2cA2PdZpR$8" role="lGtFl">
-              <node concept="1TM$A" id="2cA2PdZpR$9" role="7EUXB">
-                <node concept="2PYRI3" id="2cA2PdZuQhL" role="3lydEf">
+          <node concept="FysoC" id="1Ax10u4ituQ" role="Fysvh">
+            <ref role="FysoF" node="1Ax10u4hP8d" resolve="NotExportedClass" />
+            <node concept="7CXmI" id="1Ax10u4ituR" role="lGtFl">
+              <node concept="1TM$A" id="1Ax10u4ituS" role="7EUXB">
+                <node concept="2PYRI3" id="1Ax10u4ituT" role="3lydEf">
                   <ref role="39XzEq" to="g7jk:4K6s$_rqa8E" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="2NXPZ9" id="2cA2PdZpRY5" role="N3F5h">
-          <property role="TrG5h" value="empty_1529393870219_6" />
-        </node>
-        <node concept="3mBW2U" id="2cA2PdZpRYT" role="N3F5h">
-          <property role="2OOxQR" value="false" />
-          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+        <node concept="3mBW2U" id="1Ax10u4itAM" role="N3F5h">
+          <property role="3WCqce" value="6lFVMypOl$D/public" />
           <property role="TrG5h" value="C" />
-          <node concept="FysoC" id="2cA2PdZpRZq" role="Fysvh">
-            <ref role="FysoF" node="2cA2PdZpRZl" resolve="NotImportedClass" />
-            <node concept="7CXmI" id="2cA2PdZpRZt" role="lGtFl">
-              <node concept="1TM$A" id="2cA2PdZpRZu" role="7EUXB">
-                <node concept="2PYRI3" id="2cA2PdZpRZ_" role="3lydEf">
+          <node concept="FysoC" id="1Ax10u4itAP" role="Fysvh">
+            <ref role="FysoF" node="1Ax10u4hPg8" resolve="NotImportedClass" />
+            <node concept="7CXmI" id="1Ax10u4itAQ" role="lGtFl">
+              <node concept="1TM$A" id="1Ax10u4itAR" role="7EUXB">
+                <node concept="2PYRI3" id="1Ax10u4itAS" role="3lydEf">
                   <ref role="39XzEq" to="g7jk:4K6s$_sIa7z" />
                 </node>
               </node>
-              <node concept="1TM$A" id="1sXI6Ge6TAx" role="7EUXB" />
+              <node concept="1TM$A" id="1Ax10u4itAU" role="7EUXB" />
             </node>
           </node>
         </node>
         <node concept="2NXPZ9" id="2cA2PdZpRZC" role="N3F5h">
           <property role="TrG5h" value="empty_1529393910567_8" />
         </node>
-        <node concept="3BZPaE" id="2cA2PdZpSeK" role="N3F5h">
-          <property role="2OOxQR" value="false" />
-          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+        <node concept="3BZPaE" id="1Ax10u4itCh" role="N3F5h">
+          <property role="3WCqce" value="6lFVMypOl$D/public" />
           <property role="TrG5h" value="D" />
-          <node concept="3V$TgL" id="2cA2PdZpSsa" role="3Cz$97">
+          <node concept="3V$TgL" id="1Ax10u4itCk" role="3Cz$97">
             <property role="TrG5h" value="T" />
           </node>
         </node>
         <node concept="2NXPZ9" id="2cA2PdZpSsd" role="N3F5h">
           <property role="TrG5h" value="empty_1529393973196_11" />
         </node>
-        <node concept="3mBW2U" id="2cA2PdZpSt_" role="N3F5h">
-          <property role="2OOxQR" value="false" />
-          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+        <node concept="3mBW2U" id="1Ax10u4itIV" role="N3F5h">
+          <property role="3WCqce" value="6lFVMypOl$D/public" />
           <property role="TrG5h" value="E" />
-          <node concept="FysoC" id="2cA2PdZpSuk" role="Fysvh">
-            <ref role="FysoF" node="2cA2PdZpSeK" resolve="D" />
-            <node concept="7CXmI" id="2cA2PdZpSun" role="lGtFl">
-              <node concept="1TM$A" id="2cA2PdZpSuo" role="7EUXB">
-                <node concept="2PYRI3" id="2cA2PdZpSuv" role="3lydEf">
+          <node concept="FysoC" id="1Ax10u4itIY" role="Fysvh">
+            <ref role="FysoF" node="1Ax10u4itCh" resolve="D" />
+            <node concept="7CXmI" id="1Ax10u4itIZ" role="lGtFl">
+              <node concept="1TM$A" id="1Ax10u4itJ0" role="7EUXB">
+                <node concept="2PYRI3" id="1Ax10u4itJ1" role="3lydEf">
                   <ref role="39XzEq" to="g7jk:1N32NMNTZA1" />
                 </node>
               </node>
@@ -231,17 +220,15 @@
   </node>
   <node concept="1whW_1" id="2cA2PdZpRyZ">
     <property role="TrG5h" value="NotExportedClass" />
-    <node concept="3mBW2U" id="2cA2PdZpRzh" role="N3F5h">
-      <property role="2OOxQR" value="false" />
-      <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+    <node concept="3mBW2U" id="1Ax10u4hP8d" role="N3F5h">
+      <property role="3WCqce" value="6lFVMypOl$D/public" />
       <property role="TrG5h" value="NotExportedClass" />
     </node>
   </node>
   <node concept="1whW_1" id="2cA2PdZpRL4">
     <property role="TrG5h" value="NotImportedModule" />
-    <node concept="3mBW2U" id="2cA2PdZpRZl" role="N3F5h">
+    <node concept="3mBW2U" id="1Ax10u4hPg8" role="N3F5h">
       <property role="2OOxQR" value="true" />
-      <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
       <property role="TrG5h" value="NotImportedClass" />
     </node>
   </node>

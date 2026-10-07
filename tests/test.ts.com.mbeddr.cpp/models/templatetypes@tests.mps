@@ -61,15 +61,12 @@
     </language>
     <language id="8c081446-e4ba-48b7-a7e0-3db40e2c3439" name="com.mbeddr.cpp.base">
       <concept id="5044697665789421253" name="com.mbeddr.cpp.base.structure.IClassMemberDeclaration" flags="ng" index="3mBbG9">
-        <property id="2995459757115087788" name="visibility" index="1wg9_F" />
+        <property id="7308197777996663846" name="visibility" index="3WCqce" />
       </concept>
     </language>
     <language id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules">
       <concept id="6437088627575722813" name="com.mbeddr.core.modules.structure.Module" flags="ng" index="N3F4X">
         <child id="6437088627575722833" name="contents" index="N3F5h" />
-      </concept>
-      <concept id="6437088627575722831" name="com.mbeddr.core.modules.structure.IModuleContent" flags="ng" index="N3F5f">
-        <property id="1317894735999272944" name="exported" index="2OOxQR" />
       </concept>
     </language>
     <language id="5e6018dc-dc26-4070-9526-663fdbfe4c10" name="com.mbeddr.cpp.templates">
@@ -125,25 +122,24 @@
     <node concept="1qefOq" id="1gzloVU_9IU" role="1SKRRt">
       <node concept="1whW_1" id="1gzloVU_9IV" role="1qenE9">
         <property role="TrG5h" value="TemplateTypeDef" />
-        <node concept="3BZPaE" id="1GY6W8WXX7X" role="N3F5h">
-          <property role="2OOxQR" value="false" />
-          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+        <node concept="3BZPaE" id="1Ax10u4ibdC" role="N3F5h">
+          <property role="3WCqce" value="6lFVMypOl$D/public" />
           <property role="TrG5h" value="TemplateClass" />
-          <node concept="3V$TgL" id="1GY6W8WXX84" role="3Cz$97">
+          <node concept="3V$TgL" id="1Ax10u4ibdF" role="3Cz$97">
             <property role="TrG5h" value="T" />
-            <node concept="7CXmI" id="1GY6W8WXYhc" role="lGtFl">
-              <node concept="1TM$A" id="1GY6W8WXYhd" role="7EUXB">
-                <node concept="2PYRI3" id="1GY6W8WXYhk" role="3lydEf">
+            <node concept="7CXmI" id="1Ax10u4ibdK" role="lGtFl">
+              <node concept="1TM$A" id="1Ax10u4ibdL" role="7EUXB">
+                <node concept="2PYRI3" id="1Ax10u4ibdO" role="3lydEf">
                   <ref role="39XzEq" to="h6rj:2_lkiVk4Ik0" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="3V$TgL" id="1GY6W8WXX8n" role="3Cz$97">
+          <node concept="3V$TgL" id="1Ax10u4ibdI" role="3Cz$97">
             <property role="TrG5h" value="T" />
-            <node concept="7CXmI" id="1GY6W8WXYhn" role="lGtFl">
-              <node concept="1TM$A" id="1GY6W8WXYho" role="7EUXB">
-                <node concept="2PYRI3" id="1GY6W8WXYhv" role="3lydEf">
+            <node concept="7CXmI" id="1Ax10u4ibdP" role="lGtFl">
+              <node concept="1TM$A" id="1Ax10u4ibdQ" role="7EUXB">
+                <node concept="2PYRI3" id="1Ax10u4ibdR" role="3lydEf">
                   <ref role="39XzEq" to="h6rj:2_lkiVk4Ik0" />
                 </node>
               </node>

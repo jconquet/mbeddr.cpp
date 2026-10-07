@@ -210,6 +210,7 @@
         <node concept="3mBW2U" id="4lmr4L5mZQU" role="N3F5h">
           <property role="2OOxQR" value="true" />
           <property role="TrG5h" value="SomeClass" />
+          <property role="3WCqce" value="6lFVMypOl$D/public" />
         </node>
         <node concept="2NXPZ9" id="4lmr4L5mZSH" role="N3F5h">
           <property role="TrG5h" value="empty_1528962209292_1" />
@@ -340,6 +341,9 @@
                   </node>
                   <node concept="3ZVu4v" id="2w1tz7c4$b1" role="O_qFe">
                     <ref role="3ZVs_2" node="4lmr4L5n07r" resolve="other" />
+                  </node>
+                  <node concept="7CXmI" id="1Ax10u4i$R_" role="lGtFl">
+                    <node concept="1TM$A" id="1Ax10u4i$RA" role="7EUXB" />
                   </node>
                 </node>
                 <node concept="3ZVu4v" id="4lmr4L5n3xe" role="3TlMhI">
