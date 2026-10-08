@@ -9,7 +9,7 @@
   <property name="artifacts.root" location="${mbeddr.cpp}/build/dependencies" />
   <property name="platform.artifacts" location="${artifacts.root}/com.mbeddr.platform" />
   <property name="mbeddr.artifacts" location="${artifacts.root}/mbeddr" />
-  <property name="extensions.artifacts" location="${artifacts.root}" />
+  <property name="extensions.artifacts" location="${artifacts.root}/de.itemis.mps.extensions" />
   <property name="major.version" value="1" />
   <property name="minor.version" value="0" />
   <property name="build" value="0000" />

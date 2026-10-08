@@ -1433,6 +1433,9 @@
       <property role="TrG5h" value="extensions.artifacts" />
       <node concept="398BVA" id="1QWUXETulXx" role="398pKh">
         <ref role="398BVh" node="4MR$$QmqomQ" resolve="artifacts.root" />
+        <node concept="2Ry0Ak" id="1vLRm8Mzxfl" role="iGT6I">
+          <property role="2Ry0Am" value="de.itemis.mps.extensions" />
+        </node>
       </node>
     </node>
     <node concept="2kB4xC" id="7TN8EE6trcP" role="1l3spd">

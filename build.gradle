@@ -43,6 +43,7 @@ configurations {
 dependencies {
     mps "com.jetbrains:mps:2023.2.3"
     languageLibs "com.mbeddr:mbeddr:2023.2.26277.f5ef6b6"
+    languageLibs "de.itemis.mps:extensions:2023.2.3623.35b8c5e"
     junitAnt 'org.apache.ant:ant-junit:1.10.17'
 }
 
