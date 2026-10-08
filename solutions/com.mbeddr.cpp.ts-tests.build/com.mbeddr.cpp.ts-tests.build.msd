@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="com.mbeddr.cpp.ts-tests.build" uuid="d0529778-34ff-44ab-881c-872f96ce91ce" moduleVersion="0" compileInMPS="true">
+<solution name="com.mbeddr.cpp.ts-tests.build" uuid="d0529778-34ff-44ab-881c-872f96ce91ce" moduleVersion="0">
   <models>
     <modelRoot type="default" contentPath="${module}">
       <sourceRoot location="models" />
@@ -10,7 +10,6 @@
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">7ac0dfb8-7d5f-4573-ab80-81af2106ce03(com.mbeddr.build)</dependency>
     <dependency reexport="false">3ae9cfda-f938-4524-b4ca-fbcba3b0525b(com.mbeddr.platform)</dependency>

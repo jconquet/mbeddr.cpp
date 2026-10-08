@@ -43,8 +43,8 @@ configurations {
 }
 
 dependencies {
-    mps "com.jetbrains:mps:2022.3.3"
-    languageLibs "com.mbeddr:mbeddr:2022.3.26500.b633ef3"
+    mps "com.jetbrains:mps:2023.2.3"
+    languageLibs "com.mbeddr:mbeddr:2023.2.26277.f5ef6b6"
     junitAnt 'org.apache.ant:ant-junit:1.10.17'
     // The "com.jetbrains:mps" artifact's bundled lib/jna/<arch>/ directories are
     // missing lib/jna.jar itself (the actual JNA classes + all-platform native
